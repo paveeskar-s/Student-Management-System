@@ -72,6 +72,18 @@
     <Compile Include="UI\Grades\GradeForm.Designer.cs">
       <DependentUpon>GradeForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\StudentSubject\StudentSubjectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\StudentSubject\StudentSubjectForm.Designer.cs">
+      <DependentUpon>StudentSubjectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\StudentSubject\SubjectStudentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\StudentSubject\SubjectStudentForm.Designer.cs">
+      <DependentUpon>SubjectStudentForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\Students\CreateStudentForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -163,8 +175,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="UI\StudentSubject\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

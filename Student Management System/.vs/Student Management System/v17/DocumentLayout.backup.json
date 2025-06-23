@@ -3,47 +3,63 @@
   "WorkspaceRootPath": "D:\\Student-Management-System\\Student Management System\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|D:\\Student-Management-System\\Student Management System\\student management system\\ui\\grades\\gradeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\ui\\grades\\gradeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|d:\\student-management-system\\student management system\\student management system\\ui\\subjectteacher\\teachersubjectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\ui\\subjectteacher\\teachersubjectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|d:\\student-management-system\\student management system\\student management system\\ui\\subjectteacher\\subjectteacherform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\ui\\subjectteacher\\subjectteacherform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|d:\\student-management-system\\student management system\\student management system\\ui\\gradesubject\\subjectgrade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\ui\\gradesubject\\subjectgrade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|d:\\student-management-system\\student management system\\student management system\\ui\\gradesubject\\gradesubjectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\ui\\gradesubject\\gradesubjectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|d:\\student-management-system\\student management system\\student management system\\ui\\subjects\\subjectsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\ui\\subjects\\subjectsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|d:\\student-management-system\\student management system\\student management system\\ui\\grades\\gradeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\ui\\grades\\gradeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|d:\\student-management-system\\student management system\\student management system\\ui\\teachers\\showteachersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|D:\\Student-Management-System\\Student Management System\\student management system\\ui\\teachers\\showteachersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\ui\\teachers\\showteachersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|d:\\student-management-system\\student management system\\student management system\\ui\\teachers\\createteachersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|D:\\Student-Management-System\\Student Management System\\student management system\\ui\\teachers\\createteachersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\ui\\teachers\\createteachersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|d:\\student-management-system\\student management system\\student management system\\ui\\teachers\\editteachersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|D:\\Student-Management-System\\Student Management System\\student management system\\ui\\teachers\\editteachersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\ui\\teachers\\editteachersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|d:\\student-management-system\\student management system\\student management system\\ui\\teachers\\listteachersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|D:\\Student-Management-System\\Student Management System\\student management system\\ui\\teachers\\listteachersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\ui\\teachers\\listteachersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|d:\\student-management-system\\student management system\\student management system\\ui\\students\\showstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|D:\\Student-Management-System\\Student Management System\\student management system\\ui\\students\\showstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\ui\\students\\showstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|d:\\student-management-system\\student management system\\student management system\\ui\\students\\editstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|D:\\Student-Management-System\\Student Management System\\student management system\\ui\\students\\editstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\ui\\students\\editstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|d:\\student-management-system\\student management system\\student management system\\ui\\students\\createstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|D:\\Student-Management-System\\Student Management System\\student management system\\ui\\students\\createstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\ui\\students\\createstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|d:\\student-management-system\\student management system\\student management system\\ui\\students\\liststudentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|D:\\Student-Management-System\\Student Management System\\student management system\\ui\\students\\liststudentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\ui\\students\\liststudentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|d:\\student-management-system\\student management system\\student management system\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|D:\\Student-Management-System\\Student Management System\\student management system\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C0C83E10-3097-4060-BEB4-3B4F8C991C3B}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -54,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,7 +78,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "TeacherSubjectForm.cs [Design]",
+              "DocumentMoniker": "D:\\Student-Management-System\\Student Management System\\Student Management System\\UI\\SubjectTeacher\\TeacherSubjectForm.cs",
+              "RelativeDocumentMoniker": "Student Management System\\UI\\SubjectTeacher\\TeacherSubjectForm.cs",
+              "ToolTip": "D:\\Student-Management-System\\Student Management System\\Student Management System\\UI\\SubjectTeacher\\TeacherSubjectForm.cs [Design]",
+              "RelativeToolTip": "Student Management System\\UI\\SubjectTeacher\\TeacherSubjectForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T06:31:19.331Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SubjectTeacherForm.cs [Design]",
+              "DocumentMoniker": "D:\\Student-Management-System\\Student Management System\\Student Management System\\UI\\SubjectTeacher\\SubjectTeacherForm.cs",
+              "RelativeDocumentMoniker": "Student Management System\\UI\\SubjectTeacher\\SubjectTeacherForm.cs",
+              "ToolTip": "D:\\Student-Management-System\\Student Management System\\Student Management System\\UI\\SubjectTeacher\\SubjectTeacherForm.cs [Design]",
+              "RelativeToolTip": "Student Management System\\UI\\SubjectTeacher\\SubjectTeacherForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T06:30:50.463Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SubjectGrade.cs [Design]",
+              "DocumentMoniker": "D:\\Student-Management-System\\Student Management System\\Student Management System\\UI\\GradeSubject\\SubjectGrade.cs",
+              "RelativeDocumentMoniker": "Student Management System\\UI\\GradeSubject\\SubjectGrade.cs",
+              "ToolTip": "D:\\Student-Management-System\\Student Management System\\Student Management System\\UI\\GradeSubject\\SubjectGrade.cs [Design]",
+              "RelativeToolTip": "Student Management System\\UI\\GradeSubject\\SubjectGrade.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T06:28:58.202Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GradeSubjectForm.cs [Design]",
+              "DocumentMoniker": "D:\\Student-Management-System\\Student Management System\\Student Management System\\UI\\GradeSubject\\GradeSubjectForm.cs",
+              "RelativeDocumentMoniker": "Student Management System\\UI\\GradeSubject\\GradeSubjectForm.cs",
+              "ToolTip": "D:\\Student-Management-System\\Student Management System\\Student Management System\\UI\\GradeSubject\\GradeSubjectForm.cs [Design]",
+              "RelativeToolTip": "Student Management System\\UI\\GradeSubject\\GradeSubjectForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T06:28:29.818Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "SubjectsForm.cs [Design]",
               "DocumentMoniker": "D:\\Student-Management-System\\Student Management System\\Student Management System\\UI\\Subjects\\SubjectsForm.cs",
               "RelativeDocumentMoniker": "Student Management System\\UI\\Subjects\\SubjectsForm.cs",
@@ -74,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "GradeForm.cs [Design]",
               "DocumentMoniker": "D:\\Student-Management-System\\Student Management System\\Student Management System\\UI\\Grades\\GradeForm.cs",
               "RelativeDocumentMoniker": "Student Management System\\UI\\Grades\\GradeForm.cs",
@@ -86,111 +150,102 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "ShowTeachersForm.cs [Design]",
               "DocumentMoniker": "D:\\Student-Management-System\\Student Management System\\Student Management System\\UI\\Teachers\\ShowTeachersForm.cs",
               "RelativeDocumentMoniker": "Student Management System\\UI\\Teachers\\ShowTeachersForm.cs",
               "ToolTip": "D:\\Student-Management-System\\Student Management System\\Student Management System\\UI\\Teachers\\ShowTeachersForm.cs [Design]",
               "RelativeToolTip": "Student Management System\\UI\\Teachers\\ShowTeachersForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T06:19:14.493Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-23T06:19:14.493Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "CreateTeachersForm.cs [Design]",
               "DocumentMoniker": "D:\\Student-Management-System\\Student Management System\\Student Management System\\UI\\Teachers\\CreateTeachersForm.cs",
               "RelativeDocumentMoniker": "Student Management System\\UI\\Teachers\\CreateTeachersForm.cs",
               "ToolTip": "D:\\Student-Management-System\\Student Management System\\Student Management System\\UI\\Teachers\\CreateTeachersForm.cs [Design]",
               "RelativeToolTip": "Student Management System\\UI\\Teachers\\CreateTeachersForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T06:17:36.652Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-23T06:17:36.652Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "EditTeachersForm.cs [Design]",
               "DocumentMoniker": "D:\\Student-Management-System\\Student Management System\\Student Management System\\UI\\Teachers\\EditTeachersForm.cs",
               "RelativeDocumentMoniker": "Student Management System\\UI\\Teachers\\EditTeachersForm.cs",
               "ToolTip": "D:\\Student-Management-System\\Student Management System\\Student Management System\\UI\\Teachers\\EditTeachersForm.cs [Design]",
               "RelativeToolTip": "Student Management System\\UI\\Teachers\\EditTeachersForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T06:16:48.587Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-23T06:16:48.587Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "ListTeachersForm.cs [Design]",
               "DocumentMoniker": "D:\\Student-Management-System\\Student Management System\\Student Management System\\UI\\Teachers\\ListTeachersForm.cs",
               "RelativeDocumentMoniker": "Student Management System\\UI\\Teachers\\ListTeachersForm.cs",
               "ToolTip": "D:\\Student-Management-System\\Student Management System\\Student Management System\\UI\\Teachers\\ListTeachersForm.cs [Design]",
               "RelativeToolTip": "Student Management System\\UI\\Teachers\\ListTeachersForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T06:16:20.179Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-23T06:16:20.179Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "ShowStudentform.cs [Design]",
               "DocumentMoniker": "D:\\Student-Management-System\\Student Management System\\Student Management System\\UI\\Students\\ShowStudentform.cs",
               "RelativeDocumentMoniker": "Student Management System\\UI\\Students\\ShowStudentform.cs",
               "ToolTip": "D:\\Student-Management-System\\Student Management System\\Student Management System\\UI\\Students\\ShowStudentform.cs [Design]",
               "RelativeToolTip": "Student Management System\\UI\\Students\\ShowStudentform.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T06:15:38.337Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-23T06:15:38.337Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "EditStudentForm.cs [Design]",
               "DocumentMoniker": "D:\\Student-Management-System\\Student Management System\\Student Management System\\UI\\Students\\EditStudentForm.cs",
               "RelativeDocumentMoniker": "Student Management System\\UI\\Students\\EditStudentForm.cs",
               "ToolTip": "D:\\Student-Management-System\\Student Management System\\Student Management System\\UI\\Students\\EditStudentForm.cs [Design]",
               "RelativeToolTip": "Student Management System\\UI\\Students\\EditStudentForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T06:14:57.798Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-23T06:14:57.798Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "CreateStudentForm.cs [Design]",
               "DocumentMoniker": "D:\\Student-Management-System\\Student Management System\\Student Management System\\UI\\Students\\CreateStudentForm.cs",
               "RelativeDocumentMoniker": "Student Management System\\UI\\Students\\CreateStudentForm.cs",
               "ToolTip": "D:\\Student-Management-System\\Student Management System\\Student Management System\\UI\\Students\\CreateStudentForm.cs [Design]",
               "RelativeToolTip": "Student Management System\\UI\\Students\\CreateStudentForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T06:14:33.334Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-23T06:14:33.334Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "ListStudentsForm.cs [Design]",
               "DocumentMoniker": "D:\\Student-Management-System\\Student Management System\\Student Management System\\UI\\Students\\ListStudentsForm.cs",
               "RelativeDocumentMoniker": "Student Management System\\UI\\Students\\ListStudentsForm.cs",
               "ToolTip": "D:\\Student-Management-System\\Student Management System\\Student Management System\\UI\\Students\\ListStudentsForm.cs [Design]",
               "RelativeToolTip": "Student Management System\\UI\\Students\\ListStudentsForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T06:13:46.531Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-23T06:13:46.531Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\Student-Management-System\\Student Management System\\Student Management System\\Form1.cs",
               "RelativeDocumentMoniker": "Student Management System\\Form1.cs",
               "ToolTip": "D:\\Student-Management-System\\Student Management System\\Student Management System\\Form1.cs [Design]",
               "RelativeToolTip": "Student Management System\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T05:48:40.45Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-23T05:48:40.45Z"
             }
           ]
         }
