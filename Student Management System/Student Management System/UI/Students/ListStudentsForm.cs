@@ -16,5 +16,10 @@ namespace Student_Management_System.UI.Students
         {
             InitializeComponent();
         }
+
+        private void txtnum_of_cout_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

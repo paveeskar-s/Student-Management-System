@@ -80,11 +80,11 @@
     <Compile Include="UI\GradeSubject\GradeSubjectForm.Designer.cs">
       <DependentUpon>GradeSubjectForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\GradeSubject\SubjectGrade.cs">
+    <Compile Include="UI\GradeSubject\SubjectGradeForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\GradeSubject\SubjectGrade.Designer.cs">
-      <DependentUpon>SubjectGrade.cs</DependentUpon>
+    <Compile Include="UI\GradeSubject\SubjectGradeForm.Designer.cs">
+      <DependentUpon>SubjectGradeForm.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\Grades\GradeForm.cs">
       <SubType>Form</SubType>
@@ -197,6 +197,12 @@
     <EmbeddedResource Include="UI\DashbordForm.resx">
       <DependentUpon>DashbordForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\GradeSubject\GradeSubjectForm.resx">
+      <DependentUpon>GradeSubjectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Grades\GradeForm.resx">
+      <DependentUpon>GradeForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\StudentSubject\StudentSubjectForm.resx">
       <DependentUpon>StudentSubjectForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -214,6 +220,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Students\ShowStudentform.resx">
       <DependentUpon>ShowStudentform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Subjects\SubjectsForm.resx">
+      <DependentUpon>SubjectsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Teachers\CreateTeachersForm.resx">
+      <DependentUpon>CreateTeachersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Teachers\EditTeachersForm.resx">
+      <DependentUpon>EditTeachersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Teachers\ListTeachersForm.resx">
+      <DependentUpon>ListTeachersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Teachers\ShowTeachersForm.resx">
+      <DependentUpon>ShowTeachersForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

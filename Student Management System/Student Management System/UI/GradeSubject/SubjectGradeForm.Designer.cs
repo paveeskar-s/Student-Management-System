@@ -1,6 +1,6 @@
 ﻿namespace Student_Management_System.UI.GradeSubject
 {
-    partial class SubjectGrade
+    partial class SubjectGradeForm
     {
         /// <summary>
         /// Required designer variable.
