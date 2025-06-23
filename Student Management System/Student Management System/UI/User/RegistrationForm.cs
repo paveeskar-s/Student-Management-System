@@ -8,14 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Student_Management_System.UI.StudentSubject
+namespace Student_Management_System.UI.User
 {
-    public partial class StudentSubjectForm : Form
+    public partial class RegistrationForm : Form
     {
-        public StudentSubjectForm()
+        public RegistrationForm()
         {
             InitializeComponent();
         }
-
     }
 }

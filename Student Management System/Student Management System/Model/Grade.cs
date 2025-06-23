@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Student_Management_System.Model
 {
-    internal class Subjects
+    internal class Grade
     {
     }
 }
