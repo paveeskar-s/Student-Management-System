@@ -16,5 +16,10 @@ namespace Student_Management_System.UI.GradeSubject
         {
             InitializeComponent();
         }
+
+        private void SubjectGradeForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

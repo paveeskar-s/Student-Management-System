@@ -28,91 +28,101 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.lblgrade = new System.Windows.Forms.Label();
             this.btnclose = new System.Windows.Forms.Button();
             this.btnrefresh = new System.Windows.Forms.Button();
             this.btndelete = new System.Windows.Forms.Button();
             this.btnadd = new System.Windows.Forms.Button();
             this.lvwsubject = new System.Windows.Forms.ListView();
             this.txtserch = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            // 
+            // lblgrade
+            // 
+            this.lblgrade.BackColor = System.Drawing.Color.DarkBlue;
+            this.lblgrade.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lblgrade.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblgrade.ForeColor = System.Drawing.Color.White;
+            this.lblgrade.Location = new System.Drawing.Point(0, 0);
+            this.lblgrade.Name = "lblgrade";
+            this.lblgrade.Size = new System.Drawing.Size(487, 51);
+            this.lblgrade.TabIndex = 56;
+            this.lblgrade.Text = "Pavi\'s Subject";
+            this.lblgrade.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnclose
             // 
-            this.btnclose.Location = new System.Drawing.Point(387, 415);
+            this.btnclose.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btnclose.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.2F, System.Drawing.FontStyle.Italic);
+            this.btnclose.Location = new System.Drawing.Point(372, 397);
             this.btnclose.Name = "btnclose";
-            this.btnclose.Size = new System.Drawing.Size(75, 23);
-            this.btnclose.TabIndex = 7;
+            this.btnclose.Size = new System.Drawing.Size(99, 45);
+            this.btnclose.TabIndex = 52;
             this.btnclose.Text = "Close";
-            this.btnclose.UseVisualStyleBackColor = true;
+            this.btnclose.UseVisualStyleBackColor = false;
             // 
             // btnrefresh
             // 
-            this.btnrefresh.Location = new System.Drawing.Point(282, 415);
+            this.btnrefresh.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btnrefresh.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.2F, System.Drawing.FontStyle.Italic);
+            this.btnrefresh.Location = new System.Drawing.Point(267, 397);
             this.btnrefresh.Name = "btnrefresh";
-            this.btnrefresh.Size = new System.Drawing.Size(75, 23);
-            this.btnrefresh.TabIndex = 8;
+            this.btnrefresh.Size = new System.Drawing.Size(99, 45);
+            this.btnrefresh.TabIndex = 53;
             this.btnrefresh.Text = "Refresh";
-            this.btnrefresh.UseVisualStyleBackColor = true;
+            this.btnrefresh.UseVisualStyleBackColor = false;
             // 
             // btndelete
             // 
-            this.btndelete.Location = new System.Drawing.Point(173, 415);
+            this.btndelete.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btndelete.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.2F, System.Drawing.FontStyle.Italic);
+            this.btndelete.Location = new System.Drawing.Point(158, 397);
             this.btndelete.Name = "btndelete";
-            this.btndelete.Size = new System.Drawing.Size(75, 23);
-            this.btndelete.TabIndex = 9;
+            this.btndelete.Size = new System.Drawing.Size(99, 45);
+            this.btndelete.TabIndex = 54;
             this.btndelete.Text = "Delete";
-            this.btndelete.UseVisualStyleBackColor = true;
+            this.btndelete.UseVisualStyleBackColor = false;
             // 
             // btnadd
             // 
-            this.btnadd.Location = new System.Drawing.Point(65, 415);
+            this.btnadd.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btnadd.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.2F, System.Drawing.FontStyle.Italic);
+            this.btnadd.Location = new System.Drawing.Point(50, 397);
             this.btnadd.Name = "btnadd";
-            this.btnadd.Size = new System.Drawing.Size(75, 23);
-            this.btnadd.TabIndex = 10;
+            this.btnadd.Size = new System.Drawing.Size(99, 45);
+            this.btnadd.TabIndex = 55;
             this.btnadd.Text = "Add";
-            this.btnadd.UseVisualStyleBackColor = true;
+            this.btnadd.UseVisualStyleBackColor = false;
             // 
             // lvwsubject
             // 
             this.lvwsubject.HideSelection = false;
-            this.lvwsubject.Location = new System.Drawing.Point(28, 130);
+            this.lvwsubject.Location = new System.Drawing.Point(28, 126);
             this.lvwsubject.Name = "lvwsubject";
             this.lvwsubject.Size = new System.Drawing.Size(434, 235);
-            this.lvwsubject.TabIndex = 6;
+            this.lvwsubject.TabIndex = 51;
             this.lvwsubject.UseCompatibleStateImageBehavior = false;
             // 
             // txtserch
             // 
-            this.txtserch.Location = new System.Drawing.Point(28, 87);
+            this.txtserch.Location = new System.Drawing.Point(28, 83);
             this.txtserch.Name = "txtserch";
             this.txtserch.Size = new System.Drawing.Size(183, 22);
-            this.txtserch.TabIndex = 5;
+            this.txtserch.TabIndex = 50;
             this.txtserch.Text = "search";
-            // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.Color.FloralWhite;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(487, 34);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Pavi \'s Subject";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // SubjectStudentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(487, 450);
+            this.Controls.Add(this.lblgrade);
             this.Controls.Add(this.btnclose);
             this.Controls.Add(this.btnrefresh);
             this.Controls.Add(this.btndelete);
             this.Controls.Add(this.btnadd);
             this.Controls.Add(this.lvwsubject);
             this.Controls.Add(this.txtserch);
-            this.Controls.Add(this.label1);
             this.Name = "SubjectStudentForm";
             this.Text = "SubjectStudentForm";
             this.ResumeLayout(false);
@@ -122,12 +132,12 @@
 
         #endregion
 
+        private System.Windows.Forms.Label lblgrade;
         private System.Windows.Forms.Button btnclose;
         private System.Windows.Forms.Button btnrefresh;
         private System.Windows.Forms.Button btndelete;
         private System.Windows.Forms.Button btnadd;
         private System.Windows.Forms.ListView lvwsubject;
         private System.Windows.Forms.TextBox txtserch;
-        private System.Windows.Forms.Label label1;
     }
 }

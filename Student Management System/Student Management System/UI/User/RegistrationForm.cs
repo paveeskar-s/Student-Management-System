@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace Student_Management_System.UI.User
 {
-    public partial class RegistrationForm : Form
+    public partial class lblRegistrationForm : Form
     {
-        public RegistrationForm()
+        public lblRegistrationForm()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

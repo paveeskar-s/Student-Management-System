@@ -200,6 +200,9 @@
     <EmbeddedResource Include="UI\GradeSubject\GradeSubjectForm.resx">
       <DependentUpon>GradeSubjectForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\GradeSubject\SubjectGradeForm.resx">
+      <DependentUpon>SubjectGradeForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\Grades\GradeForm.resx">
       <DependentUpon>GradeForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -224,6 +227,12 @@
     <EmbeddedResource Include="UI\Subjects\SubjectsForm.resx">
       <DependentUpon>SubjectsForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\SubjectTeacher\SubjectTeacherForm.resx">
+      <DependentUpon>SubjectTeacherForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SubjectTeacher\TeacherSubjectForm.resx">
+      <DependentUpon>TeacherSubjectForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\Teachers\CreateTeachersForm.resx">
       <DependentUpon>CreateTeachersForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -235,6 +244,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Teachers\ShowTeachersForm.resx">
       <DependentUpon>ShowTeachersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\User\Loginform.resx">
+      <DependentUpon>Loginform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\User\RegistrationForm.resx">
+      <DependentUpon>RegistrationForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
