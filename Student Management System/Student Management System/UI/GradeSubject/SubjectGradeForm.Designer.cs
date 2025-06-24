@@ -28,33 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.cmbsubject = new System.Windows.Forms.ComboBox();
-            this.cmbgrade = new System.Windows.Forms.ComboBox();
             this.lblSubjectGrade = new System.Windows.Forms.Label();
             this.btnclose = new System.Windows.Forms.Button();
-            this.btnrest = new System.Windows.Forms.Button();
-            this.btnsave = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lblfirstname = new System.Windows.Forms.Label();
+            this.btnrefresh = new System.Windows.Forms.Button();
+            this.btndelete = new System.Windows.Forms.Button();
+            this.btnadd = new System.Windows.Forms.Button();
+            this.lvwsubject = new System.Windows.Forms.ListView();
+            this.txtserch = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // cmbsubject
-            // 
-            this.cmbsubject.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbsubject.FormattingEnabled = true;
-            this.cmbsubject.Location = new System.Drawing.Point(153, 77);
-            this.cmbsubject.Name = "cmbsubject";
-            this.cmbsubject.Size = new System.Drawing.Size(228, 28);
-            this.cmbsubject.TabIndex = 56;
-            // 
-            // cmbgrade
-            // 
-            this.cmbgrade.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbgrade.FormattingEnabled = true;
-            this.cmbgrade.Location = new System.Drawing.Point(153, 129);
-            this.cmbgrade.Name = "cmbgrade";
-            this.cmbgrade.Size = new System.Drawing.Size(228, 28);
-            this.cmbgrade.TabIndex = 57;
             // 
             // lblSubjectGrade
             // 
@@ -64,7 +45,7 @@
             this.lblSubjectGrade.ForeColor = System.Drawing.Color.White;
             this.lblSubjectGrade.Location = new System.Drawing.Point(0, 0);
             this.lblSubjectGrade.Name = "lblSubjectGrade";
-            this.lblSubjectGrade.Size = new System.Drawing.Size(410, 51);
+            this.lblSubjectGrade.Size = new System.Drawing.Size(465, 51);
             this.lblSubjectGrade.TabIndex = 55;
             this.lblSubjectGrade.Text = "Subject Grade";
             this.lblSubjectGrade.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -72,72 +53,76 @@
             // btnclose
             // 
             this.btnclose.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.btnclose.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnclose.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnclose.Location = new System.Drawing.Point(280, 181);
+            this.btnclose.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.2F, System.Drawing.FontStyle.Italic);
+            this.btnclose.Location = new System.Drawing.Point(356, 377);
             this.btnclose.Name = "btnclose";
-            this.btnclose.Size = new System.Drawing.Size(111, 39);
-            this.btnclose.TabIndex = 54;
+            this.btnclose.Size = new System.Drawing.Size(99, 45);
+            this.btnclose.TabIndex = 58;
             this.btnclose.Text = "Close";
             this.btnclose.UseVisualStyleBackColor = false;
             // 
-            // btnrest
+            // btnrefresh
             // 
-            this.btnrest.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.btnrest.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnrest.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnrest.Location = new System.Drawing.Point(153, 181);
-            this.btnrest.Name = "btnrest";
-            this.btnrest.Size = new System.Drawing.Size(111, 39);
-            this.btnrest.TabIndex = 53;
-            this.btnrest.Text = "Rest";
-            this.btnrest.UseVisualStyleBackColor = false;
+            this.btnrefresh.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btnrefresh.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.2F, System.Drawing.FontStyle.Italic);
+            this.btnrefresh.Location = new System.Drawing.Point(251, 377);
+            this.btnrefresh.Name = "btnrefresh";
+            this.btnrefresh.Size = new System.Drawing.Size(99, 45);
+            this.btnrefresh.TabIndex = 59;
+            this.btnrefresh.Text = "Refresh";
+            this.btnrefresh.UseVisualStyleBackColor = false;
             // 
-            // btnsave
+            // btndelete
             // 
-            this.btnsave.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.btnsave.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnsave.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnsave.Location = new System.Drawing.Point(24, 181);
-            this.btnsave.Name = "btnsave";
-            this.btnsave.Size = new System.Drawing.Size(111, 39);
-            this.btnsave.TabIndex = 52;
-            this.btnsave.Text = "Save";
-            this.btnsave.UseVisualStyleBackColor = false;
+            this.btndelete.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btndelete.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.2F, System.Drawing.FontStyle.Italic);
+            this.btndelete.Location = new System.Drawing.Point(142, 377);
+            this.btndelete.Name = "btndelete";
+            this.btndelete.Size = new System.Drawing.Size(99, 45);
+            this.btndelete.TabIndex = 60;
+            this.btndelete.Text = "Delete";
+            this.btndelete.UseVisualStyleBackColor = false;
             // 
-            // label1
+            // btnadd
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(33, 80);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 28);
-            this.label1.TabIndex = 50;
-            this.label1.Text = "Subject";
+            this.btnadd.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btnadd.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.2F, System.Drawing.FontStyle.Italic);
+            this.btnadd.Location = new System.Drawing.Point(34, 377);
+            this.btnadd.Name = "btnadd";
+            this.btnadd.Size = new System.Drawing.Size(99, 45);
+            this.btnadd.TabIndex = 61;
+            this.btnadd.Text = "Add";
+            this.btnadd.UseVisualStyleBackColor = false;
             // 
-            // lblfirstname
+            // lvwsubject
             // 
-            this.lblfirstname.AutoSize = true;
-            this.lblfirstname.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblfirstname.Location = new System.Drawing.Point(33, 129);
-            this.lblfirstname.Name = "lblfirstname";
-            this.lblfirstname.Size = new System.Drawing.Size(65, 28);
-            this.lblfirstname.TabIndex = 51;
-            this.lblfirstname.Text = "Grade";
+            this.lvwsubject.HideSelection = false;
+            this.lvwsubject.Location = new System.Drawing.Point(12, 106);
+            this.lvwsubject.Name = "lvwsubject";
+            this.lvwsubject.Size = new System.Drawing.Size(434, 235);
+            this.lvwsubject.TabIndex = 57;
+            this.lvwsubject.UseCompatibleStateImageBehavior = false;
+            // 
+            // txtserch
+            // 
+            this.txtserch.Location = new System.Drawing.Point(12, 63);
+            this.txtserch.Name = "txtserch";
+            this.txtserch.Size = new System.Drawing.Size(183, 22);
+            this.txtserch.TabIndex = 56;
+            this.txtserch.Text = "search";
             // 
             // SubjectGradeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(410, 236);
-            this.Controls.Add(this.cmbsubject);
-            this.Controls.Add(this.cmbgrade);
-            this.Controls.Add(this.lblSubjectGrade);
+            this.ClientSize = new System.Drawing.Size(465, 434);
             this.Controls.Add(this.btnclose);
-            this.Controls.Add(this.btnrest);
-            this.Controls.Add(this.btnsave);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.lblfirstname);
+            this.Controls.Add(this.btnrefresh);
+            this.Controls.Add(this.btndelete);
+            this.Controls.Add(this.btnadd);
+            this.Controls.Add(this.lvwsubject);
+            this.Controls.Add(this.txtserch);
+            this.Controls.Add(this.lblSubjectGrade);
             this.Name = "SubjectGradeForm";
             this.Text = "SubjectGrade";
             this.Load += new System.EventHandler(this.SubjectGradeForm_Load);
@@ -147,14 +132,12 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.ComboBox cmbsubject;
-        private System.Windows.Forms.ComboBox cmbgrade;
         private System.Windows.Forms.Label lblSubjectGrade;
         private System.Windows.Forms.Button btnclose;
-        private System.Windows.Forms.Button btnrest;
-        private System.Windows.Forms.Button btnsave;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label lblfirstname;
+        private System.Windows.Forms.Button btnrefresh;
+        private System.Windows.Forms.Button btndelete;
+        private System.Windows.Forms.Button btnadd;
+        private System.Windows.Forms.ListView lvwsubject;
+        private System.Windows.Forms.TextBox txtserch;
     }
 }

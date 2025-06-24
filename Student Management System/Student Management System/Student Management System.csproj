@@ -193,6 +193,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="UI\DashbordForm.resx">
       <DependentUpon>DashbordForm.cs</DependentUpon>
@@ -264,6 +265,56 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\export.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export5050.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add50.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\40edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\30edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\show40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\40refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\subject30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\serch20.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
