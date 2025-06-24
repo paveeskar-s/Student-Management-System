@@ -29,17 +29,7 @@
         private void InitializeComponent()
         {
             this.lblteacheredit = new System.Windows.Forms.Label();
-            this.dtpdate_of_hire = new System.Windows.Forms.DateTimePicker();
-            this.dtpdate_of_birth = new System.Windows.Forms.DateTimePicker();
-            this.cmbgrade = new System.Windows.Forms.ComboBox();
-            this.rdofemale = new System.Windows.Forms.RadioButton();
-            this.rdomale = new System.Windows.Forms.RadioButton();
-            this.txtqualifications = new System.Windows.Forms.TextBox();
-            this.txtphoneno = new System.Windows.Forms.TextBox();
-            this.txtsubject = new System.Windows.Forms.TextBox();
-            this.txtlastname = new System.Windows.Forms.TextBox();
             this.lblqualifications = new System.Windows.Forms.Label();
-            this.txtfirstname = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.lblphoneno = new System.Windows.Forms.Label();
             this.lblsubjects = new System.Windows.Forms.Label();
@@ -48,126 +38,48 @@
             this.lblgender = new System.Windows.Forms.Label();
             this.lbllastname = new System.Windows.Forms.Label();
             this.lblfirstname = new System.Windows.Forms.Label();
-            this.btnclose = new System.Windows.Forms.Button();
-            this.btnexport = new System.Windows.Forms.Button();
-            this.btnprint = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.lblsubject = new System.Windows.Forms.Label();
+            this.lbldob = new System.Windows.Forms.Label();
+            this.lblgeade = new System.Windows.Forms.Label();
+            this.lbl_gender = new System.Windows.Forms.Label();
+            this.lbllast_name = new System.Windows.Forms.Label();
+            this.lblfirst_name = new System.Windows.Forms.Label();
+            this.lblphone_no = new System.Windows.Forms.Label();
+            this.lbldoh = new System.Windows.Forms.Label();
+            this.lblqualification = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblteacheredit
             // 
-            this.lblteacheredit.BackColor = System.Drawing.Color.DarkBlue;
+            this.lblteacheredit.BackColor = System.Drawing.SystemColors.GrayText;
             this.lblteacheredit.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lblteacheredit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblteacheredit.Font = new System.Drawing.Font("Mongolian Baiti", 16.8F, System.Drawing.FontStyle.Bold);
             this.lblteacheredit.ForeColor = System.Drawing.Color.White;
             this.lblteacheredit.Location = new System.Drawing.Point(0, 0);
             this.lblteacheredit.Name = "lblteacheredit";
-            this.lblteacheredit.Size = new System.Drawing.Size(429, 51);
+            this.lblteacheredit.Size = new System.Drawing.Size(405, 51);
             this.lblteacheredit.TabIndex = 62;
             this.lblteacheredit.Text = "Teacher\'s Details";
             this.lblteacheredit.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // dtpdate_of_hire
-            // 
-            this.dtpdate_of_hire.Font = new System.Drawing.Font("Plantagenet Cherokee", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpdate_of_hire.Location = new System.Drawing.Point(171, 394);
-            this.dtpdate_of_hire.Name = "dtpdate_of_hire";
-            this.dtpdate_of_hire.Size = new System.Drawing.Size(240, 30);
-            this.dtpdate_of_hire.TabIndex = 67;
-            // 
-            // dtpdate_of_birth
-            // 
-            this.dtpdate_of_birth.Font = new System.Drawing.Font("Plantagenet Cherokee", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpdate_of_birth.Location = new System.Drawing.Point(169, 250);
-            this.dtpdate_of_birth.Name = "dtpdate_of_birth";
-            this.dtpdate_of_birth.Size = new System.Drawing.Size(240, 30);
-            this.dtpdate_of_birth.TabIndex = 66;
-            // 
-            // cmbgrade
-            // 
-            this.cmbgrade.Font = new System.Drawing.Font("Plantagenet Cherokee", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbgrade.FormattingEnabled = true;
-            this.cmbgrade.Location = new System.Drawing.Point(167, 202);
-            this.cmbgrade.Name = "cmbgrade";
-            this.cmbgrade.Size = new System.Drawing.Size(242, 31);
-            this.cmbgrade.TabIndex = 65;
-            // 
-            // rdofemale
-            // 
-            this.rdofemale.AutoSize = true;
-            this.rdofemale.Location = new System.Drawing.Point(275, 164);
-            this.rdofemale.Name = "rdofemale";
-            this.rdofemale.Size = new System.Drawing.Size(74, 20);
-            this.rdofemale.TabIndex = 64;
-            this.rdofemale.TabStop = true;
-            this.rdofemale.Text = "Female";
-            this.rdofemale.UseVisualStyleBackColor = true;
-            // 
-            // rdomale
-            // 
-            this.rdomale.AutoSize = true;
-            this.rdomale.Location = new System.Drawing.Point(169, 164);
-            this.rdomale.Name = "rdomale";
-            this.rdomale.Size = new System.Drawing.Size(58, 20);
-            this.rdomale.TabIndex = 63;
-            this.rdomale.TabStop = true;
-            this.rdomale.Text = "Male";
-            this.rdomale.UseVisualStyleBackColor = true;
-            // 
-            // txtqualifications
-            // 
-            this.txtqualifications.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtqualifications.Location = new System.Drawing.Point(169, 445);
-            this.txtqualifications.Name = "txtqualifications";
-            this.txtqualifications.Size = new System.Drawing.Size(240, 34);
-            this.txtqualifications.TabIndex = 60;
-            // 
-            // txtphoneno
-            // 
-            this.txtphoneno.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtphoneno.Location = new System.Drawing.Point(171, 344);
-            this.txtphoneno.Name = "txtphoneno";
-            this.txtphoneno.Size = new System.Drawing.Size(240, 34);
-            this.txtphoneno.TabIndex = 61;
-            // 
-            // txtsubject
-            // 
-            this.txtsubject.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtsubject.Location = new System.Drawing.Point(171, 293);
-            this.txtsubject.Name = "txtsubject";
-            this.txtsubject.Size = new System.Drawing.Size(240, 34);
-            this.txtsubject.TabIndex = 59;
-            // 
-            // txtlastname
-            // 
-            this.txtlastname.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtlastname.Location = new System.Drawing.Point(169, 113);
-            this.txtlastname.Name = "txtlastname";
-            this.txtlastname.Size = new System.Drawing.Size(240, 34);
-            this.txtlastname.TabIndex = 58;
             // 
             // lblqualifications
             // 
             this.lblqualifications.AutoSize = true;
             this.lblqualifications.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblqualifications.Location = new System.Drawing.Point(17, 448);
+            this.lblqualifications.Location = new System.Drawing.Point(6, 434);
             this.lblqualifications.Name = "lblqualifications";
             this.lblqualifications.Size = new System.Drawing.Size(137, 28);
             this.lblqualifications.TabIndex = 55;
             this.lblqualifications.Text = "Qualifications";
             // 
-            // txtfirstname
-            // 
-            this.txtfirstname.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtfirstname.Location = new System.Drawing.Point(169, 68);
-            this.txtfirstname.Name = "txtfirstname";
-            this.txtfirstname.Size = new System.Drawing.Size(240, 34);
-            this.txtfirstname.TabIndex = 57;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(17, 397);
+            this.label2.Location = new System.Drawing.Point(6, 387);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(128, 28);
             this.label2.TabIndex = 54;
@@ -177,7 +89,7 @@
             // 
             this.lblphoneno.AutoSize = true;
             this.lblphoneno.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblphoneno.Location = new System.Drawing.Point(19, 347);
+            this.lblphoneno.Location = new System.Drawing.Point(8, 337);
             this.lblphoneno.Name = "lblphoneno";
             this.lblphoneno.Size = new System.Drawing.Size(100, 28);
             this.lblphoneno.TabIndex = 53;
@@ -187,7 +99,7 @@
             // 
             this.lblsubjects.AutoSize = true;
             this.lblsubjects.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblsubjects.Location = new System.Drawing.Point(19, 296);
+            this.lblsubjects.Location = new System.Drawing.Point(8, 286);
             this.lblsubjects.Name = "lblsubjects";
             this.lblsubjects.Size = new System.Drawing.Size(85, 28);
             this.lblsubjects.TabIndex = 52;
@@ -197,7 +109,7 @@
             // 
             this.lbldate_of_birth.AutoSize = true;
             this.lbldate_of_birth.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbldate_of_birth.Location = new System.Drawing.Point(17, 253);
+            this.lbldate_of_birth.Location = new System.Drawing.Point(6, 243);
             this.lbldate_of_birth.Name = "lbldate_of_birth";
             this.lbldate_of_birth.Size = new System.Drawing.Size(127, 28);
             this.lbldate_of_birth.TabIndex = 51;
@@ -207,7 +119,7 @@
             // 
             this.lblgrade.AutoSize = true;
             this.lblgrade.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblgrade.Location = new System.Drawing.Point(17, 202);
+            this.lblgrade.Location = new System.Drawing.Point(6, 192);
             this.lblgrade.Name = "lblgrade";
             this.lblgrade.Size = new System.Drawing.Size(65, 28);
             this.lblgrade.TabIndex = 50;
@@ -217,7 +129,7 @@
             // 
             this.lblgender.AutoSize = true;
             this.lblgender.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblgender.Location = new System.Drawing.Point(17, 159);
+            this.lblgender.Location = new System.Drawing.Point(6, 149);
             this.lblgender.Name = "lblgender";
             this.lblgender.Size = new System.Drawing.Size(78, 28);
             this.lblgender.TabIndex = 49;
@@ -227,7 +139,7 @@
             // 
             this.lbllastname.AutoSize = true;
             this.lbllastname.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbllastname.Location = new System.Drawing.Point(17, 119);
+            this.lbllastname.Location = new System.Drawing.Point(6, 109);
             this.lbllastname.Name = "lbllastname";
             this.lbllastname.Size = new System.Drawing.Size(108, 28);
             this.lbllastname.TabIndex = 48;
@@ -237,68 +149,165 @@
             // 
             this.lblfirstname.AutoSize = true;
             this.lblfirstname.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblfirstname.Location = new System.Drawing.Point(17, 74);
+            this.lblfirstname.Location = new System.Drawing.Point(6, 64);
             this.lblfirstname.Name = "lblfirstname";
             this.lblfirstname.Size = new System.Drawing.Size(110, 28);
             this.lblfirstname.TabIndex = 56;
             this.lblfirstname.Text = "First Name";
             // 
-            // btnclose
+            // button4
             // 
-            this.btnclose.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.btnclose.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnclose.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnclose.Location = new System.Drawing.Point(300, 514);
-            this.btnclose.Name = "btnclose";
-            this.btnclose.Size = new System.Drawing.Size(111, 39);
-            this.btnclose.TabIndex = 70;
-            this.btnclose.Text = "Close";
-            this.btnclose.UseVisualStyleBackColor = false;
+            this.button4.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.button4.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.2F, System.Drawing.FontStyle.Italic);
+            this.button4.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button4.Image = global::Student_Management_System.Properties.Resources.print50;
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.Location = new System.Drawing.Point(43, 475);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(115, 59);
+            this.button4.TabIndex = 69;
+            this.button4.Text = "         Print";
+            this.button4.UseVisualStyleBackColor = false;
             // 
-            // btnexport
+            // button5
             // 
-            this.btnexport.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.btnexport.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnexport.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnexport.Location = new System.Drawing.Point(173, 514);
-            this.btnexport.Name = "btnexport";
-            this.btnexport.Size = new System.Drawing.Size(111, 39);
-            this.btnexport.TabIndex = 69;
-            this.btnexport.Text = "Export";
-            this.btnexport.UseVisualStyleBackColor = false;
+            this.button5.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.button5.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.2F, System.Drawing.FontStyle.Italic);
+            this.button5.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button5.Image = global::Student_Management_System.Properties.Resources._30;
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button5.Location = new System.Drawing.Point(164, 475);
+            this.button5.Name = "button5";
+            this.button5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.button5.Size = new System.Drawing.Size(115, 59);
+            this.button5.TabIndex = 70;
+            this.button5.Text = "     Export";
+            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.UseVisualStyleBackColor = false;
             // 
-            // btnprint
+            // button1
             // 
-            this.btnprint.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.btnprint.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnprint.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnprint.Location = new System.Drawing.Point(44, 514);
-            this.btnprint.Name = "btnprint";
-            this.btnprint.Size = new System.Drawing.Size(111, 39);
-            this.btnprint.TabIndex = 68;
-            this.btnprint.Text = "Print";
-            this.btnprint.UseVisualStyleBackColor = false;
+            this.button1.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.button1.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.2F, System.Drawing.FontStyle.Italic);
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button1.Image = global::Student_Management_System.Properties.Resources.close35;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(285, 475);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(115, 59);
+            this.button1.TabIndex = 68;
+            this.button1.Text = "      Close";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // lblsubject
+            // 
+            this.lblsubject.AutoSize = true;
+            this.lblsubject.Font = new System.Drawing.Font("Modern No. 20", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblsubject.Location = new System.Drawing.Point(225, 293);
+            this.lblsubject.Name = "lblsubject";
+            this.lblsubject.Size = new System.Drawing.Size(81, 21);
+            this.lblsubject.TabIndex = 71;
+            this.lblsubject.Text = "lblsubject";
+            // 
+            // lbldob
+            // 
+            this.lbldob.AutoSize = true;
+            this.lbldob.Font = new System.Drawing.Font("Modern No. 20", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldob.Location = new System.Drawing.Point(225, 246);
+            this.lbldob.Name = "lbldob";
+            this.lbldob.Size = new System.Drawing.Size(57, 21);
+            this.lbldob.TabIndex = 72;
+            this.lbldob.Text = "lbldob";
+            // 
+            // lblgeade
+            // 
+            this.lblgeade.AutoSize = true;
+            this.lblgeade.Font = new System.Drawing.Font("Modern No. 20", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblgeade.Location = new System.Drawing.Point(225, 195);
+            this.lblgeade.Name = "lblgeade";
+            this.lblgeade.Size = new System.Drawing.Size(70, 21);
+            this.lblgeade.TabIndex = 73;
+            this.lblgeade.Text = "lblgrade";
+            // 
+            // lbl_gender
+            // 
+            this.lbl_gender.AutoSize = true;
+            this.lbl_gender.Font = new System.Drawing.Font("Modern No. 20", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_gender.Location = new System.Drawing.Point(225, 152);
+            this.lbl_gender.Name = "lbl_gender";
+            this.lbl_gender.Size = new System.Drawing.Size(79, 21);
+            this.lbl_gender.TabIndex = 74;
+            this.lbl_gender.Text = "lblgender";
+            // 
+            // lbllast_name
+            // 
+            this.lbllast_name.AutoSize = true;
+            this.lbllast_name.Font = new System.Drawing.Font("Modern No. 20", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbllast_name.Location = new System.Drawing.Point(225, 112);
+            this.lbllast_name.Name = "lbllast_name";
+            this.lbllast_name.Size = new System.Drawing.Size(96, 21);
+            this.lbllast_name.TabIndex = 75;
+            this.lbllast_name.Text = "lbllastname";
+            // 
+            // lblfirst_name
+            // 
+            this.lblfirst_name.AutoSize = true;
+            this.lblfirst_name.Font = new System.Drawing.Font("Modern No. 20", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblfirst_name.Location = new System.Drawing.Point(225, 67);
+            this.lblfirst_name.Name = "lblfirst_name";
+            this.lblfirst_name.Size = new System.Drawing.Size(101, 21);
+            this.lblfirst_name.TabIndex = 76;
+            this.lblfirst_name.Text = "lblfirstname";
+            // 
+            // lblphone_no
+            // 
+            this.lblphone_no.AutoSize = true;
+            this.lblphone_no.Font = new System.Drawing.Font("Modern No. 20", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblphone_no.Location = new System.Drawing.Point(225, 344);
+            this.lblphone_no.Name = "lblphone_no";
+            this.lblphone_no.Size = new System.Drawing.Size(93, 21);
+            this.lblphone_no.TabIndex = 71;
+            this.lblphone_no.Text = "lblphoneno";
+            // 
+            // lbldoh
+            // 
+            this.lbldoh.AutoSize = true;
+            this.lbldoh.Font = new System.Drawing.Font("Modern No. 20", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldoh.Location = new System.Drawing.Point(225, 390);
+            this.lbldoh.Name = "lbldoh";
+            this.lbldoh.Size = new System.Drawing.Size(58, 21);
+            this.lbldoh.TabIndex = 72;
+            this.lbldoh.Text = "lbldoh";
+            // 
+            // lblqualification
+            // 
+            this.lblqualification.AutoSize = true;
+            this.lblqualification.Font = new System.Drawing.Font("Modern No. 20", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblqualification.Location = new System.Drawing.Point(225, 441);
+            this.lblqualification.Name = "lblqualification";
+            this.lblqualification.Size = new System.Drawing.Size(126, 21);
+            this.lblqualification.TabIndex = 72;
+            this.lblqualification.Text = "lblqualification";
             // 
             // ShowTeachersForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(429, 567);
-            this.Controls.Add(this.btnclose);
-            this.Controls.Add(this.btnexport);
-            this.Controls.Add(this.btnprint);
+            this.ClientSize = new System.Drawing.Size(405, 537);
+            this.Controls.Add(this.lblphone_no);
+            this.Controls.Add(this.lblsubject);
+            this.Controls.Add(this.lblqualification);
+            this.Controls.Add(this.lbldoh);
+            this.Controls.Add(this.lbldob);
+            this.Controls.Add(this.lblgeade);
+            this.Controls.Add(this.lbl_gender);
+            this.Controls.Add(this.lbllast_name);
+            this.Controls.Add(this.lblfirst_name);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lblteacheredit);
-            this.Controls.Add(this.dtpdate_of_hire);
-            this.Controls.Add(this.dtpdate_of_birth);
-            this.Controls.Add(this.cmbgrade);
-            this.Controls.Add(this.rdofemale);
-            this.Controls.Add(this.rdomale);
-            this.Controls.Add(this.txtqualifications);
-            this.Controls.Add(this.txtphoneno);
-            this.Controls.Add(this.txtsubject);
-            this.Controls.Add(this.txtlastname);
             this.Controls.Add(this.lblqualifications);
-            this.Controls.Add(this.txtfirstname);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblphoneno);
             this.Controls.Add(this.lblsubjects);
@@ -317,17 +326,7 @@
         #endregion
 
         private System.Windows.Forms.Label lblteacheredit;
-        private System.Windows.Forms.DateTimePicker dtpdate_of_hire;
-        private System.Windows.Forms.DateTimePicker dtpdate_of_birth;
-        private System.Windows.Forms.ComboBox cmbgrade;
-        private System.Windows.Forms.RadioButton rdofemale;
-        private System.Windows.Forms.RadioButton rdomale;
-        private System.Windows.Forms.TextBox txtqualifications;
-        private System.Windows.Forms.TextBox txtphoneno;
-        private System.Windows.Forms.TextBox txtsubject;
-        private System.Windows.Forms.TextBox txtlastname;
         private System.Windows.Forms.Label lblqualifications;
-        private System.Windows.Forms.TextBox txtfirstname;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblphoneno;
         private System.Windows.Forms.Label lblsubjects;
@@ -336,8 +335,17 @@
         private System.Windows.Forms.Label lblgender;
         private System.Windows.Forms.Label lbllastname;
         private System.Windows.Forms.Label lblfirstname;
-        private System.Windows.Forms.Button btnclose;
-        private System.Windows.Forms.Button btnexport;
-        private System.Windows.Forms.Button btnprint;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label lblsubject;
+        private System.Windows.Forms.Label lbldob;
+        private System.Windows.Forms.Label lblgeade;
+        private System.Windows.Forms.Label lbl_gender;
+        private System.Windows.Forms.Label lbllast_name;
+        private System.Windows.Forms.Label lblfirst_name;
+        private System.Windows.Forms.Label lblphone_no;
+        private System.Windows.Forms.Label lbldoh;
+        private System.Windows.Forms.Label lblqualification;
     }
 }

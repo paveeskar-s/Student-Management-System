@@ -34,9 +34,6 @@
             this.cmbgrade = new System.Windows.Forms.ComboBox();
             this.rdofemale = new System.Windows.Forms.RadioButton();
             this.rdomale = new System.Windows.Forms.RadioButton();
-            this.btnclose = new System.Windows.Forms.Button();
-            this.btnrest = new System.Windows.Forms.Button();
-            this.btnupdate = new System.Windows.Forms.Button();
             this.txtqualifications = new System.Windows.Forms.TextBox();
             this.txtphoneno = new System.Windows.Forms.TextBox();
             this.txtsubject = new System.Windows.Forms.TextBox();
@@ -51,17 +48,20 @@
             this.lblgender = new System.Windows.Forms.Label();
             this.lbllastname = new System.Windows.Forms.Label();
             this.lblfirstname = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.btnsave = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblteacheredit
             // 
-            this.lblteacheredit.BackColor = System.Drawing.Color.DarkBlue;
+            this.lblteacheredit.BackColor = System.Drawing.SystemColors.GrayText;
             this.lblteacheredit.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lblteacheredit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblteacheredit.Font = new System.Drawing.Font("Mongolian Baiti", 16.8F, System.Drawing.FontStyle.Bold);
             this.lblteacheredit.ForeColor = System.Drawing.Color.White;
             this.lblteacheredit.Location = new System.Drawing.Point(0, 0);
             this.lblteacheredit.Name = "lblteacheredit";
-            this.lblteacheredit.Size = new System.Drawing.Size(444, 51);
+            this.lblteacheredit.Size = new System.Drawing.Size(406, 51);
             this.lblteacheredit.TabIndex = 42;
             this.lblteacheredit.Text = "Teacher\'s Edit";
             this.lblteacheredit.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -69,7 +69,7 @@
             // dtpdate_of_hire
             // 
             this.dtpdate_of_hire.Font = new System.Drawing.Font("Plantagenet Cherokee", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpdate_of_hire.Location = new System.Drawing.Point(177, 397);
+            this.dtpdate_of_hire.Location = new System.Drawing.Point(160, 388);
             this.dtpdate_of_hire.Name = "dtpdate_of_hire";
             this.dtpdate_of_hire.Size = new System.Drawing.Size(240, 30);
             this.dtpdate_of_hire.TabIndex = 47;
@@ -77,7 +77,7 @@
             // dtpdate_of_birth
             // 
             this.dtpdate_of_birth.Font = new System.Drawing.Font("Plantagenet Cherokee", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpdate_of_birth.Location = new System.Drawing.Point(175, 253);
+            this.dtpdate_of_birth.Location = new System.Drawing.Point(158, 244);
             this.dtpdate_of_birth.Name = "dtpdate_of_birth";
             this.dtpdate_of_birth.Size = new System.Drawing.Size(240, 30);
             this.dtpdate_of_birth.TabIndex = 46;
@@ -86,7 +86,7 @@
             // 
             this.cmbgrade.Font = new System.Drawing.Font("Plantagenet Cherokee", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbgrade.FormattingEnabled = true;
-            this.cmbgrade.Location = new System.Drawing.Point(173, 205);
+            this.cmbgrade.Location = new System.Drawing.Point(156, 196);
             this.cmbgrade.Name = "cmbgrade";
             this.cmbgrade.Size = new System.Drawing.Size(242, 31);
             this.cmbgrade.TabIndex = 45;
@@ -94,7 +94,7 @@
             // rdofemale
             // 
             this.rdofemale.AutoSize = true;
-            this.rdofemale.Location = new System.Drawing.Point(281, 167);
+            this.rdofemale.Location = new System.Drawing.Point(264, 158);
             this.rdofemale.Name = "rdofemale";
             this.rdofemale.Size = new System.Drawing.Size(74, 20);
             this.rdofemale.TabIndex = 44;
@@ -105,7 +105,7 @@
             // rdomale
             // 
             this.rdomale.AutoSize = true;
-            this.rdomale.Location = new System.Drawing.Point(175, 167);
+            this.rdomale.Location = new System.Drawing.Point(158, 158);
             this.rdomale.Name = "rdomale";
             this.rdomale.Size = new System.Drawing.Size(58, 20);
             this.rdomale.TabIndex = 43;
@@ -113,46 +113,10 @@
             this.rdomale.Text = "Male";
             this.rdomale.UseVisualStyleBackColor = true;
             // 
-            // btnclose
-            // 
-            this.btnclose.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.btnclose.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnclose.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnclose.Location = new System.Drawing.Point(306, 516);
-            this.btnclose.Name = "btnclose";
-            this.btnclose.Size = new System.Drawing.Size(111, 39);
-            this.btnclose.TabIndex = 41;
-            this.btnclose.Text = "Close";
-            this.btnclose.UseVisualStyleBackColor = false;
-            // 
-            // btnrest
-            // 
-            this.btnrest.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.btnrest.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnrest.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnrest.Location = new System.Drawing.Point(179, 516);
-            this.btnrest.Name = "btnrest";
-            this.btnrest.Size = new System.Drawing.Size(111, 39);
-            this.btnrest.TabIndex = 40;
-            this.btnrest.Text = "Rest";
-            this.btnrest.UseVisualStyleBackColor = false;
-            // 
-            // btnupdate
-            // 
-            this.btnupdate.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.btnupdate.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnupdate.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnupdate.Location = new System.Drawing.Point(50, 516);
-            this.btnupdate.Name = "btnupdate";
-            this.btnupdate.Size = new System.Drawing.Size(111, 39);
-            this.btnupdate.TabIndex = 39;
-            this.btnupdate.Text = "Update";
-            this.btnupdate.UseVisualStyleBackColor = false;
-            // 
             // txtqualifications
             // 
             this.txtqualifications.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtqualifications.Location = new System.Drawing.Point(175, 448);
+            this.txtqualifications.Location = new System.Drawing.Point(158, 439);
             this.txtqualifications.Name = "txtqualifications";
             this.txtqualifications.Size = new System.Drawing.Size(240, 34);
             this.txtqualifications.TabIndex = 37;
@@ -160,7 +124,7 @@
             // txtphoneno
             // 
             this.txtphoneno.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtphoneno.Location = new System.Drawing.Point(177, 347);
+            this.txtphoneno.Location = new System.Drawing.Point(160, 338);
             this.txtphoneno.Name = "txtphoneno";
             this.txtphoneno.Size = new System.Drawing.Size(240, 34);
             this.txtphoneno.TabIndex = 38;
@@ -168,7 +132,7 @@
             // txtsubject
             // 
             this.txtsubject.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtsubject.Location = new System.Drawing.Point(177, 296);
+            this.txtsubject.Location = new System.Drawing.Point(160, 287);
             this.txtsubject.Name = "txtsubject";
             this.txtsubject.Size = new System.Drawing.Size(240, 34);
             this.txtsubject.TabIndex = 36;
@@ -176,7 +140,7 @@
             // txtlastname
             // 
             this.txtlastname.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtlastname.Location = new System.Drawing.Point(175, 116);
+            this.txtlastname.Location = new System.Drawing.Point(158, 107);
             this.txtlastname.Name = "txtlastname";
             this.txtlastname.Size = new System.Drawing.Size(240, 34);
             this.txtlastname.TabIndex = 35;
@@ -185,7 +149,7 @@
             // 
             this.lblqualifications.AutoSize = true;
             this.lblqualifications.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblqualifications.Location = new System.Drawing.Point(23, 451);
+            this.lblqualifications.Location = new System.Drawing.Point(6, 442);
             this.lblqualifications.Name = "lblqualifications";
             this.lblqualifications.Size = new System.Drawing.Size(137, 28);
             this.lblqualifications.TabIndex = 32;
@@ -194,7 +158,7 @@
             // txtfirstname
             // 
             this.txtfirstname.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtfirstname.Location = new System.Drawing.Point(175, 71);
+            this.txtfirstname.Location = new System.Drawing.Point(158, 62);
             this.txtfirstname.Name = "txtfirstname";
             this.txtfirstname.Size = new System.Drawing.Size(240, 34);
             this.txtfirstname.TabIndex = 34;
@@ -203,7 +167,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(23, 400);
+            this.label2.Location = new System.Drawing.Point(6, 391);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(128, 28);
             this.label2.TabIndex = 31;
@@ -213,7 +177,7 @@
             // 
             this.lblphoneno.AutoSize = true;
             this.lblphoneno.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblphoneno.Location = new System.Drawing.Point(25, 350);
+            this.lblphoneno.Location = new System.Drawing.Point(8, 341);
             this.lblphoneno.Name = "lblphoneno";
             this.lblphoneno.Size = new System.Drawing.Size(100, 28);
             this.lblphoneno.TabIndex = 30;
@@ -223,7 +187,7 @@
             // 
             this.lblsubjects.AutoSize = true;
             this.lblsubjects.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblsubjects.Location = new System.Drawing.Point(25, 299);
+            this.lblsubjects.Location = new System.Drawing.Point(8, 290);
             this.lblsubjects.Name = "lblsubjects";
             this.lblsubjects.Size = new System.Drawing.Size(85, 28);
             this.lblsubjects.TabIndex = 29;
@@ -233,7 +197,7 @@
             // 
             this.lbldate_of_birth.AutoSize = true;
             this.lbldate_of_birth.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbldate_of_birth.Location = new System.Drawing.Point(23, 256);
+            this.lbldate_of_birth.Location = new System.Drawing.Point(6, 247);
             this.lbldate_of_birth.Name = "lbldate_of_birth";
             this.lbldate_of_birth.Size = new System.Drawing.Size(127, 28);
             this.lbldate_of_birth.TabIndex = 28;
@@ -243,7 +207,7 @@
             // 
             this.lblgrade.AutoSize = true;
             this.lblgrade.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblgrade.Location = new System.Drawing.Point(23, 205);
+            this.lblgrade.Location = new System.Drawing.Point(6, 196);
             this.lblgrade.Name = "lblgrade";
             this.lblgrade.Size = new System.Drawing.Size(65, 28);
             this.lblgrade.TabIndex = 27;
@@ -253,7 +217,7 @@
             // 
             this.lblgender.AutoSize = true;
             this.lblgender.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblgender.Location = new System.Drawing.Point(23, 162);
+            this.lblgender.Location = new System.Drawing.Point(6, 153);
             this.lblgender.Name = "lblgender";
             this.lblgender.Size = new System.Drawing.Size(78, 28);
             this.lblgender.TabIndex = 26;
@@ -263,7 +227,7 @@
             // 
             this.lbllastname.AutoSize = true;
             this.lbllastname.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbllastname.Location = new System.Drawing.Point(23, 122);
+            this.lbllastname.Location = new System.Drawing.Point(6, 113);
             this.lbllastname.Name = "lbllastname";
             this.lbllastname.Size = new System.Drawing.Size(108, 28);
             this.lbllastname.TabIndex = 25;
@@ -273,26 +237,68 @@
             // 
             this.lblfirstname.AutoSize = true;
             this.lblfirstname.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblfirstname.Location = new System.Drawing.Point(23, 77);
+            this.lblfirstname.Location = new System.Drawing.Point(6, 68);
             this.lblfirstname.Name = "lblfirstname";
             this.lblfirstname.Size = new System.Drawing.Size(110, 28);
             this.lblfirstname.TabIndex = 33;
             this.lblfirstname.Text = "First Name";
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.button1.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.2F, System.Drawing.FontStyle.Italic);
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button1.Image = global::Student_Management_System.Properties.Resources.close35;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(295, 479);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(105, 59);
+            this.button1.TabIndex = 50;
+            this.button1.Text = "        Close";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.button2.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button2.Image = global::Student_Management_System.Properties.Resources.rest30;
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.Location = new System.Drawing.Point(179, 479);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(105, 59);
+            this.button2.TabIndex = 48;
+            this.button2.Text = "     Reset";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // btnsave
+            // 
+            this.btnsave.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btnsave.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnsave.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnsave.Image = global::Student_Management_System.Properties.Resources._30save;
+            this.btnsave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnsave.Location = new System.Drawing.Point(63, 479);
+            this.btnsave.Name = "btnsave";
+            this.btnsave.Size = new System.Drawing.Size(105, 59);
+            this.btnsave.TabIndex = 49;
+            this.btnsave.Text = "        Save";
+            this.btnsave.UseVisualStyleBackColor = false;
+            // 
             // EditTeachersForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(444, 589);
+            this.ClientSize = new System.Drawing.Size(406, 536);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnsave);
             this.Controls.Add(this.lblteacheredit);
             this.Controls.Add(this.dtpdate_of_hire);
             this.Controls.Add(this.dtpdate_of_birth);
             this.Controls.Add(this.cmbgrade);
             this.Controls.Add(this.rdofemale);
             this.Controls.Add(this.rdomale);
-            this.Controls.Add(this.btnclose);
-            this.Controls.Add(this.btnrest);
-            this.Controls.Add(this.btnupdate);
             this.Controls.Add(this.txtqualifications);
             this.Controls.Add(this.txtphoneno);
             this.Controls.Add(this.txtsubject);
@@ -322,9 +328,6 @@
         private System.Windows.Forms.ComboBox cmbgrade;
         private System.Windows.Forms.RadioButton rdofemale;
         private System.Windows.Forms.RadioButton rdomale;
-        private System.Windows.Forms.Button btnclose;
-        private System.Windows.Forms.Button btnrest;
-        private System.Windows.Forms.Button btnupdate;
         private System.Windows.Forms.TextBox txtqualifications;
         private System.Windows.Forms.TextBox txtphoneno;
         private System.Windows.Forms.TextBox txtsubject;
@@ -339,5 +342,8 @@
         private System.Windows.Forms.Label lblgender;
         private System.Windows.Forms.Label lbllastname;
         private System.Windows.Forms.Label lblfirstname;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnsave;
     }
 }

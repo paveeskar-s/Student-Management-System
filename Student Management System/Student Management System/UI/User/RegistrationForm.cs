@@ -26,5 +26,10 @@ namespace Student_Management_System.UI.User
         {
 
         }
+
+        private void lblRegistrationForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

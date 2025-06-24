@@ -16,5 +16,10 @@ namespace Student_Management_System.UI.SubjectTeacher
         {
             InitializeComponent();
         }
+
+        private void SubjectTeacherForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

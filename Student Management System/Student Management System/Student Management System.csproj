@@ -316,5 +316,41 @@
   <ItemGroup>
     <None Include="Resources\serch20.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\schhol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\30save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rest30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tea30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\30sub.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32student.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\regster40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\register30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\serch201.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

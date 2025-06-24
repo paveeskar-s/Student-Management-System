@@ -35,19 +35,18 @@
             this.lblPassword = new System.Windows.Forms.Label();
             this.lblusername = new System.Windows.Forms.Label();
             this.lblcreatestudent = new System.Windows.Forms.Label();
-            this.lblemail = new System.Windows.Forms.Label();
-            this.txtemail = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.cmbuser_type = new System.Windows.Forms.ComboBox();
-            this.btnclose = new System.Windows.Forms.Button();
-            this.btnrest = new System.Windows.Forms.Button();
             this.btnRegistering = new System.Windows.Forms.Button();
+            this.btnreset = new System.Windows.Forms.Button();
+            this.btnclose = new System.Windows.Forms.Button();
+            this.btnloginpage = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtconfirm_password
             // 
             this.txtconfirm_password.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtconfirm_password.Location = new System.Drawing.Point(204, 164);
+            this.txtconfirm_password.Location = new System.Drawing.Point(220, 150);
             this.txtconfirm_password.Name = "txtconfirm_password";
             this.txtconfirm_password.Size = new System.Drawing.Size(240, 34);
             this.txtconfirm_password.TabIndex = 5;
@@ -55,7 +54,7 @@
             // txtpassword
             // 
             this.txtpassword.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtpassword.Location = new System.Drawing.Point(204, 119);
+            this.txtpassword.Location = new System.Drawing.Point(220, 106);
             this.txtpassword.Name = "txtpassword";
             this.txtpassword.Size = new System.Drawing.Size(240, 34);
             this.txtpassword.TabIndex = 6;
@@ -63,7 +62,7 @@
             // txtadmission
             // 
             this.txtadmission.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtadmission.Location = new System.Drawing.Point(204, 72);
+            this.txtadmission.Location = new System.Drawing.Point(220, 63);
             this.txtadmission.Name = "txtadmission";
             this.txtadmission.Size = new System.Drawing.Size(240, 34);
             this.txtadmission.TabIndex = 7;
@@ -72,7 +71,7 @@
             // 
             this.lbllastname.AutoSize = true;
             this.lbllastname.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbllastname.Location = new System.Drawing.Point(14, 170);
+            this.lbllastname.Location = new System.Drawing.Point(23, 156);
             this.lbllastname.Name = "lbllastname";
             this.lbllastname.Size = new System.Drawing.Size(174, 28);
             this.lbllastname.TabIndex = 2;
@@ -82,7 +81,7 @@
             // 
             this.lblPassword.AutoSize = true;
             this.lblPassword.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPassword.Location = new System.Drawing.Point(14, 125);
+            this.lblPassword.Location = new System.Drawing.Point(23, 112);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.Size = new System.Drawing.Size(93, 28);
             this.lblPassword.TabIndex = 3;
@@ -92,7 +91,7 @@
             // 
             this.lblusername.AutoSize = true;
             this.lblusername.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblusername.Location = new System.Drawing.Point(14, 78);
+            this.lblusername.Location = new System.Drawing.Point(23, 69);
             this.lblusername.Name = "lblusername";
             this.lblusername.Size = new System.Drawing.Size(112, 28);
             this.lblusername.TabIndex = 4;
@@ -100,40 +99,22 @@
             // 
             // lblcreatestudent
             // 
-            this.lblcreatestudent.BackColor = System.Drawing.Color.DarkBlue;
+            this.lblcreatestudent.BackColor = System.Drawing.Color.DarkCyan;
             this.lblcreatestudent.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lblcreatestudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcreatestudent.Font = new System.Drawing.Font("Modern No. 20", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblcreatestudent.ForeColor = System.Drawing.Color.White;
             this.lblcreatestudent.Location = new System.Drawing.Point(0, 0);
             this.lblcreatestudent.Name = "lblcreatestudent";
-            this.lblcreatestudent.Size = new System.Drawing.Size(454, 51);
+            this.lblcreatestudent.Size = new System.Drawing.Size(476, 51);
             this.lblcreatestudent.TabIndex = 8;
             this.lblcreatestudent.Text = "User Registration";
             this.lblcreatestudent.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblemail
-            // 
-            this.lblemail.AutoSize = true;
-            this.lblemail.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblemail.Location = new System.Drawing.Point(14, 222);
-            this.lblemail.Name = "lblemail";
-            this.lblemail.Size = new System.Drawing.Size(64, 28);
-            this.lblemail.TabIndex = 2;
-            this.lblemail.Text = "Email";
-            // 
-            // txtemail
-            // 
-            this.txtemail.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtemail.Location = new System.Drawing.Point(204, 216);
-            this.txtemail.Name = "txtemail";
-            this.txtemail.Size = new System.Drawing.Size(240, 34);
-            this.txtemail.TabIndex = 5;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(14, 269);
+            this.label1.Location = new System.Drawing.Point(23, 194);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(101, 28);
             this.label1.TabIndex = 2;
@@ -144,68 +125,88 @@
             // 
             this.cmbuser_type.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbuser_type.FormattingEnabled = true;
-            this.cmbuser_type.Location = new System.Drawing.Point(204, 273);
+            this.cmbuser_type.Location = new System.Drawing.Point(220, 198);
             this.cmbuser_type.Name = "cmbuser_type";
             this.cmbuser_type.Size = new System.Drawing.Size(240, 30);
             this.cmbuser_type.TabIndex = 9;
-            // 
-            // btnclose
-            // 
-            this.btnclose.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.btnclose.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnclose.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnclose.Location = new System.Drawing.Point(333, 345);
-            this.btnclose.Name = "btnclose";
-            this.btnclose.Size = new System.Drawing.Size(111, 39);
-            this.btnclose.TabIndex = 10;
-            this.btnclose.Text = "Close";
-            this.btnclose.UseVisualStyleBackColor = false;
-            // 
-            // btnrest
-            // 
-            this.btnrest.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.btnrest.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnrest.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnrest.Location = new System.Drawing.Point(206, 345);
-            this.btnrest.Name = "btnrest";
-            this.btnrest.Size = new System.Drawing.Size(111, 39);
-            this.btnrest.TabIndex = 11;
-            this.btnrest.Text = "Rest";
-            this.btnrest.UseVisualStyleBackColor = false;
             // 
             // btnRegistering
             // 
             this.btnRegistering.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.btnRegistering.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistering.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnRegistering.Location = new System.Drawing.Point(77, 345);
+            this.btnRegistering.Image = global::Student_Management_System.Properties.Resources.register30;
+            this.btnRegistering.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRegistering.Location = new System.Drawing.Point(5, 241);
             this.btnRegistering.Name = "btnRegistering";
-            this.btnRegistering.Size = new System.Drawing.Size(111, 39);
+            this.btnRegistering.Size = new System.Drawing.Size(115, 59);
             this.btnRegistering.TabIndex = 12;
-            this.btnRegistering.Text = "Register ";
+            this.btnRegistering.Text = "        Register ";
             this.btnRegistering.UseVisualStyleBackColor = false;
+            // 
+            // btnreset
+            // 
+            this.btnreset.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btnreset.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnreset.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnreset.Image = global::Student_Management_System.Properties.Resources.rest30;
+            this.btnreset.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnreset.Location = new System.Drawing.Point(122, 241);
+            this.btnreset.Name = "btnreset";
+            this.btnreset.Size = new System.Drawing.Size(105, 59);
+            this.btnreset.TabIndex = 48;
+            this.btnreset.Text = "     Reset";
+            this.btnreset.UseVisualStyleBackColor = false;
+            // 
+            // btnclose
+            // 
+            this.btnclose.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btnclose.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.2F, System.Drawing.FontStyle.Italic);
+            this.btnclose.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnclose.Image = global::Student_Management_System.Properties.Resources.close35;
+            this.btnclose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnclose.Location = new System.Drawing.Point(354, 241);
+            this.btnclose.Name = "btnclose";
+            this.btnclose.Size = new System.Drawing.Size(115, 59);
+            this.btnclose.TabIndex = 47;
+            this.btnclose.Text = "      Close";
+            this.btnclose.UseVisualStyleBackColor = false;
+            // 
+            // btnloginpage
+            // 
+            this.btnloginpage.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btnloginpage.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnloginpage.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnloginpage.Image = global::Student_Management_System.Properties.Resources.login30;
+            this.btnloginpage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnloginpage.Location = new System.Drawing.Point(233, 241);
+            this.btnloginpage.Name = "btnloginpage";
+            this.btnloginpage.Size = new System.Drawing.Size(115, 59);
+            this.btnloginpage.TabIndex = 49;
+            this.btnloginpage.Text = "         Login page";
+            this.btnloginpage.UseVisualStyleBackColor = false;
             // 
             // lblRegistrationForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(454, 392);
+            this.ClientSize = new System.Drawing.Size(476, 304);
+            this.Controls.Add(this.btnloginpage);
+            this.Controls.Add(this.btnreset);
             this.Controls.Add(this.btnclose);
-            this.Controls.Add(this.btnrest);
             this.Controls.Add(this.btnRegistering);
             this.Controls.Add(this.cmbuser_type);
             this.Controls.Add(this.lblcreatestudent);
-            this.Controls.Add(this.txtemail);
             this.Controls.Add(this.txtconfirm_password);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtpassword);
-            this.Controls.Add(this.lblemail);
             this.Controls.Add(this.txtadmission);
             this.Controls.Add(this.lbllastname);
             this.Controls.Add(this.lblPassword);
             this.Controls.Add(this.lblusername);
             this.Name = "lblRegistrationForm";
             this.Text = "RegistrationForm";
+            this.Load += new System.EventHandler(this.lblRegistrationForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -220,12 +221,11 @@
         private System.Windows.Forms.Label lblPassword;
         private System.Windows.Forms.Label lblusername;
         private System.Windows.Forms.Label lblcreatestudent;
-        private System.Windows.Forms.Label lblemail;
-        private System.Windows.Forms.TextBox txtemail;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox cmbuser_type;
-        private System.Windows.Forms.Button btnclose;
-        private System.Windows.Forms.Button btnrest;
         private System.Windows.Forms.Button btnRegistering;
+        private System.Windows.Forms.Button btnreset;
+        private System.Windows.Forms.Button btnclose;
+        private System.Windows.Forms.Button btnloginpage;
     }
 }

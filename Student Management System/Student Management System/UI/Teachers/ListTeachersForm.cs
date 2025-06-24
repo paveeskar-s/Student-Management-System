@@ -16,5 +16,10 @@ namespace Student_Management_System.UI.Teachers
         {
             InitializeComponent();
         }
+
+        private void lblstudentdetails_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
