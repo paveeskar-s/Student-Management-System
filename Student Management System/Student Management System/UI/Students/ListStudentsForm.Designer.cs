@@ -29,9 +29,10 @@
         private void InitializeComponent()
         {
             this.lblstudentdethails = new System.Windows.Forms.Label();
-            this.txtnum_of_cout = new System.Windows.Forms.Label();
+            this.txtnum_of_tcout = new System.Windows.Forms.Label();
             this.t = new System.Windows.Forms.TextBox();
             this.dgvteachersdetails = new System.Windows.Forms.DataGridView();
+            this.lblnumberoftcount = new System.Windows.Forms.Label();
             this.btnsearch = new System.Windows.Forms.Button();
             this.btnshowsubject = new System.Windows.Forms.Button();
             this.btnclose = new System.Windows.Forms.Button();
@@ -58,15 +59,15 @@
             this.lblstudentdethails.Text = "Student Details";
             this.lblstudentdethails.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // txtnum_of_cout
+            // txtnum_of_tcout
             // 
-            this.txtnum_of_cout.AutoSize = true;
-            this.txtnum_of_cout.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtnum_of_cout.Location = new System.Drawing.Point(856, 70);
-            this.txtnum_of_cout.Name = "txtnum_of_cout";
-            this.txtnum_of_cout.Size = new System.Drawing.Size(194, 28);
-            this.txtnum_of_cout.TabIndex = 47;
-            this.txtnum_of_cout.Text = "Number of Teachers";
+            this.txtnum_of_tcout.AutoSize = true;
+            this.txtnum_of_tcout.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtnum_of_tcout.Location = new System.Drawing.Point(777, 70);
+            this.txtnum_of_tcout.Name = "txtnum_of_tcout";
+            this.txtnum_of_tcout.Size = new System.Drawing.Size(204, 28);
+            this.txtnum_of_tcout.TabIndex = 47;
+            this.txtnum_of_tcout.Text = "Number of Teachers :";
             // 
             // t
             // 
@@ -87,6 +88,16 @@
             this.dgvteachersdetails.RowTemplate.Height = 24;
             this.dgvteachersdetails.Size = new System.Drawing.Size(1099, 442);
             this.dgvteachersdetails.TabIndex = 46;
+            // 
+            // lblnumberoftcount
+            // 
+            this.lblnumberoftcount.AutoSize = true;
+            this.lblnumberoftcount.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblnumberoftcount.Location = new System.Drawing.Point(987, 73);
+            this.lblnumberoftcount.Name = "lblnumberoftcount";
+            this.lblnumberoftcount.Size = new System.Drawing.Size(34, 25);
+            this.lblnumberoftcount.TabIndex = 59;
+            this.lblnumberoftcount.Text = "20";
             // 
             // btnsearch
             // 
@@ -230,9 +241,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1113, 615);
+            this.ControlBox = false;
+            this.Controls.Add(this.lblnumberoftcount);
             this.Controls.Add(this.btnsearch);
             this.Controls.Add(this.btnshowsubject);
-            this.Controls.Add(this.txtnum_of_cout);
+            this.Controls.Add(this.txtnum_of_tcout);
             this.Controls.Add(this.t);
             this.Controls.Add(this.dgvteachersdetails);
             this.Controls.Add(this.btnclose);
@@ -245,7 +258,6 @@
             this.Controls.Add(this.btnexport);
             this.Controls.Add(this.lblstudentdethails);
             this.Name = "ListStudentsForm";
-            this.Text = "ListStudentsForm";
             ((System.ComponentModel.ISupportInitialize)(this.dgvteachersdetails)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -254,7 +266,7 @@
 
         #endregion
         private System.Windows.Forms.Label lblstudentdethails;
-        private System.Windows.Forms.Label txtnum_of_cout;
+        private System.Windows.Forms.Label txtnum_of_tcout;
         private System.Windows.Forms.TextBox t;
         private System.Windows.Forms.DataGridView dgvteachersdetails;
         private System.Windows.Forms.Button btnclose;
@@ -267,5 +279,6 @@
         private System.Windows.Forms.Button btnexport;
         private System.Windows.Forms.Button btnshowsubject;
         private System.Windows.Forms.Button btnsearch;
+        private System.Windows.Forms.Label lblnumberoftcount;
     }
 }

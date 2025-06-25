@@ -223,6 +223,16 @@ namespace Student_Management_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap grad30 {
+            get {
+                object obj = ResourceManager.GetObject("grad30", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap login30 {
             get {
                 object obj = ResourceManager.GetObject("login30", resourceCulture);
@@ -236,6 +246,16 @@ namespace Student_Management_System.Properties {
         internal static System.Drawing.Bitmap login40 {
             get {
                 object obj = ResourceManager.GetObject("login40", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap loginp {
+            get {
+                object obj = ResourceManager.GetObject("loginp", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

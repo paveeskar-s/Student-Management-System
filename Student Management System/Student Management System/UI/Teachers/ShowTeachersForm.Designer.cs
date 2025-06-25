@@ -60,7 +60,7 @@
             this.lblteacheredit.ForeColor = System.Drawing.Color.White;
             this.lblteacheredit.Location = new System.Drawing.Point(0, 0);
             this.lblteacheredit.Name = "lblteacheredit";
-            this.lblteacheredit.Size = new System.Drawing.Size(405, 51);
+            this.lblteacheredit.Size = new System.Drawing.Size(383, 51);
             this.lblteacheredit.TabIndex = 62;
             this.lblteacheredit.Text = "Teacher\'s Details";
             this.lblteacheredit.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -162,7 +162,7 @@
             this.button4.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button4.Image = global::Student_Management_System.Properties.Resources.print50;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(43, 475);
+            this.button4.Location = new System.Drawing.Point(20, 471);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(115, 59);
             this.button4.TabIndex = 69;
@@ -176,7 +176,7 @@
             this.button5.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button5.Image = global::Student_Management_System.Properties.Resources._30;
             this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button5.Location = new System.Drawing.Point(164, 475);
+            this.button5.Location = new System.Drawing.Point(141, 471);
             this.button5.Name = "button5";
             this.button5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.button5.Size = new System.Drawing.Size(115, 59);
@@ -192,7 +192,7 @@
             this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button1.Image = global::Student_Management_System.Properties.Resources.close35;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(285, 475);
+            this.button1.Location = new System.Drawing.Point(262, 471);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(115, 59);
             this.button1.TabIndex = 68;
@@ -293,7 +293,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(405, 537);
+            this.ClientSize = new System.Drawing.Size(383, 533);
+            this.ControlBox = false;
             this.Controls.Add(this.lblphone_no);
             this.Controls.Add(this.lblsubject);
             this.Controls.Add(this.lblqualification);
@@ -316,8 +317,9 @@
             this.Controls.Add(this.lblgender);
             this.Controls.Add(this.lbllastname);
             this.Controls.Add(this.lblfirstname);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "ShowTeachersForm";
-            this.Text = "ShowTeachersForm";
             this.ResumeLayout(false);
             this.PerformLayout();
 

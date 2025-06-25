@@ -30,14 +30,14 @@
         {
             this.lblgrade = new System.Windows.Forms.Label();
             this.lvwsubject = new System.Windows.Forms.ListView();
+            this.t = new System.Windows.Forms.TextBox();
+            this.btnsearch = new System.Windows.Forms.Button();
             this.btnclose = new System.Windows.Forms.Button();
             this.btnrefresh = new System.Windows.Forms.Button();
             this.btndelete = new System.Windows.Forms.Button();
             this.btnadd = new System.Windows.Forms.Button();
             this.btnprint = new System.Windows.Forms.Button();
             this.btnexport = new System.Windows.Forms.Button();
-            this.btnsearch = new System.Windows.Forms.Button();
-            this.t = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblgrade
@@ -61,6 +61,25 @@
             this.lvwsubject.Size = new System.Drawing.Size(698, 235);
             this.lvwsubject.TabIndex = 57;
             this.lvwsubject.UseCompatibleStateImageBehavior = false;
+            // 
+            // t
+            // 
+            this.t.BackColor = System.Drawing.SystemColors.Control;
+            this.t.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.t.Location = new System.Drawing.Point(9, 67);
+            this.t.Name = "t";
+            this.t.Size = new System.Drawing.Size(217, 29);
+            this.t.TabIndex = 64;
+            this.t.Text = "Search ";
+            // 
+            // btnsearch
+            // 
+            this.btnsearch.Image = global::Student_Management_System.Properties.Resources.serch201;
+            this.btnsearch.Location = new System.Drawing.Point(222, 67);
+            this.btnsearch.Name = "btnsearch";
+            this.btnsearch.Size = new System.Drawing.Size(54, 31);
+            this.btnsearch.TabIndex = 65;
+            this.btnsearch.UseVisualStyleBackColor = true;
             // 
             // btnclose
             // 
@@ -148,30 +167,12 @@
             this.btnexport.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnexport.UseVisualStyleBackColor = false;
             // 
-            // btnsearch
-            // 
-            this.btnsearch.Image = global::Student_Management_System.Properties.Resources.serch201;
-            this.btnsearch.Location = new System.Drawing.Point(222, 67);
-            this.btnsearch.Name = "btnsearch";
-            this.btnsearch.Size = new System.Drawing.Size(54, 31);
-            this.btnsearch.TabIndex = 65;
-            this.btnsearch.UseVisualStyleBackColor = true;
-            // 
-            // t
-            // 
-            this.t.BackColor = System.Drawing.SystemColors.Control;
-            this.t.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.t.Location = new System.Drawing.Point(9, 67);
-            this.t.Name = "t";
-            this.t.Size = new System.Drawing.Size(217, 29);
-            this.t.TabIndex = 64;
-            this.t.Text = "Search ";
-            // 
             // GradeSubjectForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(710, 406);
+            this.ControlBox = false;
             this.Controls.Add(this.btnsearch);
             this.Controls.Add(this.t);
             this.Controls.Add(this.btnclose);
@@ -182,8 +183,9 @@
             this.Controls.Add(this.btnexport);
             this.Controls.Add(this.lvwsubject);
             this.Controls.Add(this.lblgrade);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "GradeSubjectForm";
-            this.Text = "GradeSubjectForm";
             this.ResumeLayout(false);
             this.PerformLayout();
 

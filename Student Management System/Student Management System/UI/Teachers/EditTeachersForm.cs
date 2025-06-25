@@ -16,5 +16,10 @@ namespace Student_Management_System.UI.Teachers
         {
             InitializeComponent();
         }
+
+        private void txtqualifications_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

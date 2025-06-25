@@ -31,6 +31,9 @@
             this.txtnum_of_cout = new System.Windows.Forms.Label();
             this.dgvteachersdetails = new System.Windows.Forms.DataGridView();
             this.lblstudentdetails = new System.Windows.Forms.Label();
+            this.t = new System.Windows.Forms.TextBox();
+            this.lblnumberofscount = new System.Windows.Forms.Label();
+            this.btnsearch = new System.Windows.Forms.Button();
             this.btnshowsubject = new System.Windows.Forms.Button();
             this.btnclose = new System.Windows.Forms.Button();
             this.btnrefresh = new System.Windows.Forms.Button();
@@ -40,8 +43,6 @@
             this.btnadd = new System.Windows.Forms.Button();
             this.btnprint = new System.Windows.Forms.Button();
             this.btnexport = new System.Windows.Forms.Button();
-            this.btnsearch = new System.Windows.Forms.Button();
-            this.t = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvteachersdetails)).BeginInit();
             this.SuspendLayout();
             // 
@@ -49,11 +50,11 @@
             // 
             this.txtnum_of_cout.AutoSize = true;
             this.txtnum_of_cout.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtnum_of_cout.Location = new System.Drawing.Point(857, 87);
+            this.txtnum_of_cout.Location = new System.Drawing.Point(790, 87);
             this.txtnum_of_cout.Name = "txtnum_of_cout";
-            this.txtnum_of_cout.Size = new System.Drawing.Size(194, 28);
+            this.txtnum_of_cout.Size = new System.Drawing.Size(204, 28);
             this.txtnum_of_cout.TabIndex = 32;
-            this.txtnum_of_cout.Text = "Number of Teachers";
+            this.txtnum_of_cout.Text = "Number of  Student : ";
             // 
             // dgvteachersdetails
             // 
@@ -79,6 +80,35 @@
             this.lblstudentdetails.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblstudentdetails.Click += new System.EventHandler(this.lblstudentdetails_Click);
             // 
+            // t
+            // 
+            this.t.BackColor = System.Drawing.SystemColors.Control;
+            this.t.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.t.Location = new System.Drawing.Point(5, 87);
+            this.t.Name = "t";
+            this.t.Size = new System.Drawing.Size(217, 29);
+            this.t.TabIndex = 59;
+            this.t.Text = "Search ";
+            // 
+            // lblnumberofscount
+            // 
+            this.lblnumberofscount.AutoSize = true;
+            this.lblnumberofscount.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblnumberofscount.Location = new System.Drawing.Point(1000, 88);
+            this.lblnumberofscount.Name = "lblnumberofscount";
+            this.lblnumberofscount.Size = new System.Drawing.Size(45, 25);
+            this.lblnumberofscount.TabIndex = 61;
+            this.lblnumberofscount.Text = "198";
+            // 
+            // btnsearch
+            // 
+            this.btnsearch.Image = global::Student_Management_System.Properties.Resources.serch201;
+            this.btnsearch.Location = new System.Drawing.Point(218, 87);
+            this.btnsearch.Name = "btnsearch";
+            this.btnsearch.Size = new System.Drawing.Size(54, 31);
+            this.btnsearch.TabIndex = 60;
+            this.btnsearch.UseVisualStyleBackColor = true;
+            // 
             // btnshowsubject
             // 
             this.btnshowsubject.BackColor = System.Drawing.SystemColors.ScrollBar;
@@ -86,7 +116,7 @@
             this.btnshowsubject.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnshowsubject.Image = global::Student_Management_System.Properties.Resources.subject30;
             this.btnshowsubject.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnshowsubject.Location = new System.Drawing.Point(955, 574);
+            this.btnshowsubject.Location = new System.Drawing.Point(958, 574);
             this.btnshowsubject.Name = "btnshowsubject";
             this.btnshowsubject.Size = new System.Drawing.Size(153, 59);
             this.btnshowsubject.TabIndex = 22;
@@ -100,7 +130,7 @@
             this.btnclose.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnclose.Image = global::Student_Management_System.Properties.Resources.close35;
             this.btnclose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnclose.Location = new System.Drawing.Point(836, 575);
+            this.btnclose.Location = new System.Drawing.Point(838, 575);
             this.btnclose.Name = "btnclose";
             this.btnclose.Size = new System.Drawing.Size(115, 59);
             this.btnclose.TabIndex = 23;
@@ -207,30 +237,13 @@
             this.btnexport.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnexport.UseVisualStyleBackColor = false;
             // 
-            // btnsearch
-            // 
-            this.btnsearch.Image = global::Student_Management_System.Properties.Resources.serch201;
-            this.btnsearch.Location = new System.Drawing.Point(218, 87);
-            this.btnsearch.Name = "btnsearch";
-            this.btnsearch.Size = new System.Drawing.Size(54, 31);
-            this.btnsearch.TabIndex = 60;
-            this.btnsearch.UseVisualStyleBackColor = true;
-            // 
-            // t
-            // 
-            this.t.BackColor = System.Drawing.SystemColors.Control;
-            this.t.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.t.Location = new System.Drawing.Point(5, 87);
-            this.t.Name = "t";
-            this.t.Size = new System.Drawing.Size(217, 29);
-            this.t.TabIndex = 59;
-            this.t.Text = "Search ";
-            // 
             // ListTeachersForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1112, 634);
+            this.ControlBox = false;
+            this.Controls.Add(this.lblnumberofscount);
             this.Controls.Add(this.btnsearch);
             this.Controls.Add(this.t);
             this.Controls.Add(this.lblstudentdetails);
@@ -245,8 +258,9 @@
             this.Controls.Add(this.btnadd);
             this.Controls.Add(this.btnprint);
             this.Controls.Add(this.btnexport);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "ListTeachersForm";
-            this.Text = "ListStudentForm";
             ((System.ComponentModel.ISupportInitialize)(this.dgvteachersdetails)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -268,5 +282,6 @@
         private System.Windows.Forms.Label lblstudentdetails;
         private System.Windows.Forms.Button btnsearch;
         private System.Windows.Forms.TextBox t;
+        private System.Windows.Forms.Label lblnumberofscount;
     }
 }

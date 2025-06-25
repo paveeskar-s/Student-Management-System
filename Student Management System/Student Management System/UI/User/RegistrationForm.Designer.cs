@@ -46,7 +46,7 @@
             // txtconfirm_password
             // 
             this.txtconfirm_password.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtconfirm_password.Location = new System.Drawing.Point(220, 150);
+            this.txtconfirm_password.Location = new System.Drawing.Point(199, 150);
             this.txtconfirm_password.Name = "txtconfirm_password";
             this.txtconfirm_password.Size = new System.Drawing.Size(240, 34);
             this.txtconfirm_password.TabIndex = 5;
@@ -54,7 +54,7 @@
             // txtpassword
             // 
             this.txtpassword.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtpassword.Location = new System.Drawing.Point(220, 106);
+            this.txtpassword.Location = new System.Drawing.Point(199, 106);
             this.txtpassword.Name = "txtpassword";
             this.txtpassword.Size = new System.Drawing.Size(240, 34);
             this.txtpassword.TabIndex = 6;
@@ -62,7 +62,7 @@
             // txtadmission
             // 
             this.txtadmission.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtadmission.Location = new System.Drawing.Point(220, 63);
+            this.txtadmission.Location = new System.Drawing.Point(199, 63);
             this.txtadmission.Name = "txtadmission";
             this.txtadmission.Size = new System.Drawing.Size(240, 34);
             this.txtadmission.TabIndex = 7;
@@ -105,7 +105,7 @@
             this.lblcreatestudent.ForeColor = System.Drawing.Color.White;
             this.lblcreatestudent.Location = new System.Drawing.Point(0, 0);
             this.lblcreatestudent.Name = "lblcreatestudent";
-            this.lblcreatestudent.Size = new System.Drawing.Size(476, 51);
+            this.lblcreatestudent.Size = new System.Drawing.Size(445, 51);
             this.lblcreatestudent.TabIndex = 8;
             this.lblcreatestudent.Text = "User Registration";
             this.lblcreatestudent.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -125,7 +125,7 @@
             // 
             this.cmbuser_type.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbuser_type.FormattingEnabled = true;
-            this.cmbuser_type.Location = new System.Drawing.Point(220, 198);
+            this.cmbuser_type.Location = new System.Drawing.Point(199, 198);
             this.cmbuser_type.Name = "cmbuser_type";
             this.cmbuser_type.Size = new System.Drawing.Size(240, 30);
             this.cmbuser_type.TabIndex = 9;
@@ -137,11 +137,11 @@
             this.btnRegistering.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnRegistering.Image = global::Student_Management_System.Properties.Resources.register30;
             this.btnRegistering.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRegistering.Location = new System.Drawing.Point(5, 241);
+            this.btnRegistering.Location = new System.Drawing.Point(7, 234);
             this.btnRegistering.Name = "btnRegistering";
-            this.btnRegistering.Size = new System.Drawing.Size(115, 59);
+            this.btnRegistering.Size = new System.Drawing.Size(100, 47);
             this.btnRegistering.TabIndex = 12;
-            this.btnRegistering.Text = "        Register ";
+            this.btnRegistering.Text = "         Register ";
             this.btnRegistering.UseVisualStyleBackColor = false;
             // 
             // btnreset
@@ -151,9 +151,9 @@
             this.btnreset.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnreset.Image = global::Student_Management_System.Properties.Resources.rest30;
             this.btnreset.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnreset.Location = new System.Drawing.Point(122, 241);
+            this.btnreset.Location = new System.Drawing.Point(113, 234);
             this.btnreset.Name = "btnreset";
-            this.btnreset.Size = new System.Drawing.Size(105, 59);
+            this.btnreset.Size = new System.Drawing.Size(100, 47);
             this.btnreset.TabIndex = 48;
             this.btnreset.Text = "     Reset";
             this.btnreset.UseVisualStyleBackColor = false;
@@ -165,9 +165,9 @@
             this.btnclose.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnclose.Image = global::Student_Management_System.Properties.Resources.close35;
             this.btnclose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnclose.Location = new System.Drawing.Point(354, 241);
+            this.btnclose.Location = new System.Drawing.Point(342, 234);
             this.btnclose.Name = "btnclose";
-            this.btnclose.Size = new System.Drawing.Size(115, 59);
+            this.btnclose.Size = new System.Drawing.Size(100, 47);
             this.btnclose.TabIndex = 47;
             this.btnclose.Text = "      Close";
             this.btnclose.UseVisualStyleBackColor = false;
@@ -179,9 +179,9 @@
             this.btnloginpage.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnloginpage.Image = global::Student_Management_System.Properties.Resources.login30;
             this.btnloginpage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnloginpage.Location = new System.Drawing.Point(233, 241);
+            this.btnloginpage.Location = new System.Drawing.Point(219, 234);
             this.btnloginpage.Name = "btnloginpage";
-            this.btnloginpage.Size = new System.Drawing.Size(115, 59);
+            this.btnloginpage.Size = new System.Drawing.Size(115, 47);
             this.btnloginpage.TabIndex = 49;
             this.btnloginpage.Text = "         Login page";
             this.btnloginpage.UseVisualStyleBackColor = false;
@@ -190,7 +190,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(476, 304);
+            this.ClientSize = new System.Drawing.Size(445, 283);
+            this.ControlBox = false;
             this.Controls.Add(this.btnloginpage);
             this.Controls.Add(this.btnreset);
             this.Controls.Add(this.btnclose);
@@ -204,8 +205,9 @@
             this.Controls.Add(this.lbllastname);
             this.Controls.Add(this.lblPassword);
             this.Controls.Add(this.lblusername);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "lblRegistrationForm";
-            this.Text = "RegistrationForm";
             this.Load += new System.EventHandler(this.lblRegistrationForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

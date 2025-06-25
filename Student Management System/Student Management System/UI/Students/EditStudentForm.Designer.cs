@@ -33,11 +33,9 @@
             this.cmbgrade = new System.Windows.Forms.ComboBox();
             this.rdofemale = new System.Windows.Forms.RadioButton();
             this.rdomale = new System.Windows.Forms.RadioButton();
-            this.txtsubject = new System.Windows.Forms.TextBox();
             this.txtlastname = new System.Windows.Forms.TextBox();
             this.txtfirstname = new System.Windows.Forms.TextBox();
             this.txtadmission = new System.Windows.Forms.TextBox();
-            this.lblsubjects = new System.Windows.Forms.Label();
             this.lbldate_of_birth = new System.Windows.Forms.Label();
             this.lblgrade = new System.Windows.Forms.Label();
             this.lblgender = new System.Windows.Forms.Label();
@@ -57,7 +55,7 @@
             this.lbledit.ForeColor = System.Drawing.Color.White;
             this.lbledit.Location = new System.Drawing.Point(0, 0);
             this.lbledit.Name = "lbledit";
-            this.lbledit.Size = new System.Drawing.Size(403, 51);
+            this.lbledit.Size = new System.Drawing.Size(401, 51);
             this.lbledit.TabIndex = 20;
             this.lbledit.Text = "Pavi\'s Edit";
             this.lbledit.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -65,7 +63,8 @@
             // dtpdate_of_birth
             // 
             this.dtpdate_of_birth.Font = new System.Drawing.Font("Plantagenet Cherokee", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpdate_of_birth.Location = new System.Drawing.Point(160, 298);
+            this.dtpdate_of_birth.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpdate_of_birth.Location = new System.Drawing.Point(158, 281);
             this.dtpdate_of_birth.Name = "dtpdate_of_birth";
             this.dtpdate_of_birth.Size = new System.Drawing.Size(240, 30);
             this.dtpdate_of_birth.TabIndex = 24;
@@ -101,14 +100,6 @@
             this.rdomale.Text = "Male";
             this.rdomale.UseVisualStyleBackColor = true;
             // 
-            // txtsubject
-            // 
-            this.txtsubject.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtsubject.Location = new System.Drawing.Point(160, 346);
-            this.txtsubject.Name = "txtsubject";
-            this.txtsubject.Size = new System.Drawing.Size(240, 34);
-            this.txtsubject.TabIndex = 16;
-            // 
             // txtlastname
             // 
             this.txtlastname.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -133,21 +124,11 @@
             this.txtadmission.Size = new System.Drawing.Size(240, 34);
             this.txtadmission.TabIndex = 13;
             // 
-            // lblsubjects
-            // 
-            this.lblsubjects.AutoSize = true;
-            this.lblsubjects.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblsubjects.Location = new System.Drawing.Point(8, 349);
-            this.lblsubjects.Name = "lblsubjects";
-            this.lblsubjects.Size = new System.Drawing.Size(85, 28);
-            this.lblsubjects.TabIndex = 11;
-            this.lblsubjects.Text = "Subjects";
-            // 
             // lbldate_of_birth
             // 
             this.lbldate_of_birth.AutoSize = true;
             this.lbldate_of_birth.Font = new System.Drawing.Font("Plantagenet Cherokee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbldate_of_birth.Location = new System.Drawing.Point(8, 292);
+            this.lbldate_of_birth.Location = new System.Drawing.Point(8, 281);
             this.lbldate_of_birth.Name = "lbldate_of_birth";
             this.lbldate_of_birth.Size = new System.Drawing.Size(127, 28);
             this.lbldate_of_birth.TabIndex = 10;
@@ -210,7 +191,7 @@
             this.btnclose.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnclose.Image = global::Student_Management_System.Properties.Resources.close35;
             this.btnclose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnclose.Location = new System.Drawing.Point(295, 386);
+            this.btnclose.Location = new System.Drawing.Point(295, 319);
             this.btnclose.Name = "btnclose";
             this.btnclose.Size = new System.Drawing.Size(105, 59);
             this.btnclose.TabIndex = 42;
@@ -224,7 +205,7 @@
             this.btnrest.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnrest.Image = global::Student_Management_System.Properties.Resources.rest30;
             this.btnrest.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnrest.Location = new System.Drawing.Point(179, 386);
+            this.btnrest.Location = new System.Drawing.Point(179, 319);
             this.btnrest.Name = "btnrest";
             this.btnrest.Size = new System.Drawing.Size(105, 59);
             this.btnrest.TabIndex = 40;
@@ -238,7 +219,7 @@
             this.btnsave.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnsave.Image = global::Student_Management_System.Properties.Resources._30save;
             this.btnsave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnsave.Location = new System.Drawing.Point(63, 386);
+            this.btnsave.Location = new System.Drawing.Point(63, 319);
             this.btnsave.Name = "btnsave";
             this.btnsave.Size = new System.Drawing.Size(105, 59);
             this.btnsave.TabIndex = 41;
@@ -249,7 +230,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(403, 449);
+            this.ClientSize = new System.Drawing.Size(401, 379);
+            this.ControlBox = false;
             this.Controls.Add(this.btnclose);
             this.Controls.Add(this.btnrest);
             this.Controls.Add(this.btnsave);
@@ -258,19 +240,18 @@
             this.Controls.Add(this.cmbgrade);
             this.Controls.Add(this.rdofemale);
             this.Controls.Add(this.rdomale);
-            this.Controls.Add(this.txtsubject);
             this.Controls.Add(this.txtlastname);
             this.Controls.Add(this.txtfirstname);
             this.Controls.Add(this.txtadmission);
-            this.Controls.Add(this.lblsubjects);
             this.Controls.Add(this.lbldate_of_birth);
             this.Controls.Add(this.lblgrade);
             this.Controls.Add(this.lblgender);
             this.Controls.Add(this.lbllastname);
             this.Controls.Add(this.lblfirstname);
             this.Controls.Add(this.lbladmission_no);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "EditStudentForm";
-            this.Text = "EditStudentForm";
             this.Load += new System.EventHandler(this.EditStudentForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -284,11 +265,9 @@
         private System.Windows.Forms.ComboBox cmbgrade;
         private System.Windows.Forms.RadioButton rdofemale;
         private System.Windows.Forms.RadioButton rdomale;
-        private System.Windows.Forms.TextBox txtsubject;
         private System.Windows.Forms.TextBox txtlastname;
         private System.Windows.Forms.TextBox txtfirstname;
         private System.Windows.Forms.TextBox txtadmission;
-        private System.Windows.Forms.Label lblsubjects;
         private System.Windows.Forms.Label lbldate_of_birth;
         private System.Windows.Forms.Label lblgrade;
         private System.Windows.Forms.Label lblgender;

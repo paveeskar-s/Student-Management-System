@@ -36,11 +36,6 @@
             this.lbllastname = new System.Windows.Forms.Label();
             this.lblfirstname = new System.Windows.Forms.Label();
             this.lbladmission_no = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.lbladmissionno = new System.Windows.Forms.Label();
             this.lblfirst_name = new System.Windows.Forms.Label();
             this.lbllast_name = new System.Windows.Forms.Label();
@@ -48,6 +43,11 @@
             this.lblgeade = new System.Windows.Forms.Label();
             this.lbldob = new System.Windows.Forms.Label();
             this.lblsubject = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblshowstudent
@@ -133,6 +133,76 @@
             this.lbladmission_no.TabIndex = 21;
             this.lbladmission_no.Text = "Admission No";
             // 
+            // lbladmissionno
+            // 
+            this.lbladmissionno.AutoSize = true;
+            this.lbladmissionno.Font = new System.Drawing.Font("Modern No. 20", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbladmissionno.Location = new System.Drawing.Point(240, 72);
+            this.lbladmissionno.Name = "lbladmissionno";
+            this.lbladmissionno.Size = new System.Drawing.Size(126, 21);
+            this.lbladmissionno.TabIndex = 51;
+            this.lbladmissionno.Text = "lbladmission no";
+            // 
+            // lblfirst_name
+            // 
+            this.lblfirst_name.AutoSize = true;
+            this.lblfirst_name.Font = new System.Drawing.Font("Modern No. 20", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblfirst_name.Location = new System.Drawing.Point(240, 114);
+            this.lblfirst_name.Name = "lblfirst_name";
+            this.lblfirst_name.Size = new System.Drawing.Size(101, 21);
+            this.lblfirst_name.TabIndex = 51;
+            this.lblfirst_name.Text = "lblfirstname";
+            // 
+            // lbllast_name
+            // 
+            this.lbllast_name.AutoSize = true;
+            this.lbllast_name.Font = new System.Drawing.Font("Modern No. 20", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbllast_name.Location = new System.Drawing.Point(240, 159);
+            this.lbllast_name.Name = "lbllast_name";
+            this.lbllast_name.Size = new System.Drawing.Size(96, 21);
+            this.lbllast_name.TabIndex = 51;
+            this.lbllast_name.Text = "lbllastname";
+            // 
+            // lbl_gender
+            // 
+            this.lbl_gender.AutoSize = true;
+            this.lbl_gender.Font = new System.Drawing.Font("Modern No. 20", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_gender.Location = new System.Drawing.Point(240, 199);
+            this.lbl_gender.Name = "lbl_gender";
+            this.lbl_gender.Size = new System.Drawing.Size(79, 21);
+            this.lbl_gender.TabIndex = 51;
+            this.lbl_gender.Text = "lblgender";
+            // 
+            // lblgeade
+            // 
+            this.lblgeade.AutoSize = true;
+            this.lblgeade.Font = new System.Drawing.Font("Modern No. 20", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblgeade.Location = new System.Drawing.Point(240, 242);
+            this.lblgeade.Name = "lblgeade";
+            this.lblgeade.Size = new System.Drawing.Size(70, 21);
+            this.lblgeade.TabIndex = 51;
+            this.lblgeade.Text = "lblgrade";
+            // 
+            // lbldob
+            // 
+            this.lbldob.AutoSize = true;
+            this.lbldob.Font = new System.Drawing.Font("Modern No. 20", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldob.Location = new System.Drawing.Point(240, 282);
+            this.lbldob.Name = "lbldob";
+            this.lbldob.Size = new System.Drawing.Size(57, 21);
+            this.lbldob.TabIndex = 51;
+            this.lbldob.Text = "lbldob";
+            // 
+            // lblsubject
+            // 
+            this.lblsubject.AutoSize = true;
+            this.lblsubject.Font = new System.Drawing.Font("Modern No. 20", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblsubject.Location = new System.Drawing.Point(240, 317);
+            this.lblsubject.Name = "lblsubject";
+            this.lblsubject.Size = new System.Drawing.Size(81, 21);
+            this.lblsubject.TabIndex = 51;
+            this.lblsubject.Text = "lblsubject";
+            // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.SystemColors.ScrollBar;
@@ -207,81 +277,12 @@
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.UseVisualStyleBackColor = false;
             // 
-            // lbladmissionno
-            // 
-            this.lbladmissionno.AutoSize = true;
-            this.lbladmissionno.Font = new System.Drawing.Font("Modern No. 20", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbladmissionno.Location = new System.Drawing.Point(240, 72);
-            this.lbladmissionno.Name = "lbladmissionno";
-            this.lbladmissionno.Size = new System.Drawing.Size(126, 21);
-            this.lbladmissionno.TabIndex = 51;
-            this.lbladmissionno.Text = "lbladmission no";
-            // 
-            // lblfirst_name
-            // 
-            this.lblfirst_name.AutoSize = true;
-            this.lblfirst_name.Font = new System.Drawing.Font("Modern No. 20", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblfirst_name.Location = new System.Drawing.Point(240, 114);
-            this.lblfirst_name.Name = "lblfirst_name";
-            this.lblfirst_name.Size = new System.Drawing.Size(101, 21);
-            this.lblfirst_name.TabIndex = 51;
-            this.lblfirst_name.Text = "lblfirstname";
-            // 
-            // lbllast_name
-            // 
-            this.lbllast_name.AutoSize = true;
-            this.lbllast_name.Font = new System.Drawing.Font("Modern No. 20", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbllast_name.Location = new System.Drawing.Point(240, 159);
-            this.lbllast_name.Name = "lbllast_name";
-            this.lbllast_name.Size = new System.Drawing.Size(96, 21);
-            this.lbllast_name.TabIndex = 51;
-            this.lbllast_name.Text = "lbllastname";
-            // 
-            // lbl_gender
-            // 
-            this.lbl_gender.AutoSize = true;
-            this.lbl_gender.Font = new System.Drawing.Font("Modern No. 20", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_gender.Location = new System.Drawing.Point(240, 199);
-            this.lbl_gender.Name = "lbl_gender";
-            this.lbl_gender.Size = new System.Drawing.Size(79, 21);
-            this.lbl_gender.TabIndex = 51;
-            this.lbl_gender.Text = "lblgender";
-            // 
-            // lblgeade
-            // 
-            this.lblgeade.AutoSize = true;
-            this.lblgeade.Font = new System.Drawing.Font("Modern No. 20", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblgeade.Location = new System.Drawing.Point(240, 242);
-            this.lblgeade.Name = "lblgeade";
-            this.lblgeade.Size = new System.Drawing.Size(70, 21);
-            this.lblgeade.TabIndex = 51;
-            this.lblgeade.Text = "lblgrade";
-            // 
-            // lbldob
-            // 
-            this.lbldob.AutoSize = true;
-            this.lbldob.Font = new System.Drawing.Font("Modern No. 20", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbldob.Location = new System.Drawing.Point(240, 282);
-            this.lbldob.Name = "lbldob";
-            this.lbldob.Size = new System.Drawing.Size(57, 21);
-            this.lbldob.TabIndex = 51;
-            this.lbldob.Text = "lbldob";
-            // 
-            // lblsubject
-            // 
-            this.lblsubject.AutoSize = true;
-            this.lblsubject.Font = new System.Drawing.Font("Modern No. 20", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblsubject.Location = new System.Drawing.Point(240, 317);
-            this.lblsubject.Name = "lblsubject";
-            this.lblsubject.Size = new System.Drawing.Size(81, 21);
-            this.lblsubject.TabIndex = 51;
-            this.lblsubject.Text = "lblsubject";
-            // 
             // ShowStudentform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(409, 416);
+            this.ControlBox = false;
             this.Controls.Add(this.lblsubject);
             this.Controls.Add(this.lbldob);
             this.Controls.Add(this.lblgeade);
@@ -302,8 +303,9 @@
             this.Controls.Add(this.lbllastname);
             this.Controls.Add(this.lblfirstname);
             this.Controls.Add(this.lbladmission_no);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "ShowStudentform";
-            this.Text = "ShowStudentform";
             this.ResumeLayout(false);
             this.PerformLayout();
 

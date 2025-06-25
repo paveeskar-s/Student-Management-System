@@ -172,6 +172,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(701, 398);
+            this.ControlBox = false;
             this.Controls.Add(this.btnsearch);
             this.Controls.Add(this.t);
             this.Controls.Add(this.btnclose);
@@ -182,8 +183,9 @@
             this.Controls.Add(this.btnexport);
             this.Controls.Add(this.lvwsubject);
             this.Controls.Add(this.lblsubjectstudent);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "SubjectStudentForm";
-            this.Text = "SubjectStudentForm";
             this.ResumeLayout(false);
             this.PerformLayout();
 

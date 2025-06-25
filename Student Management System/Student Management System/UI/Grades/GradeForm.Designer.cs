@@ -32,11 +32,11 @@
             this.txtgradename = new System.Windows.Forms.TextBox();
             this.lblgrade = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btnshowsubject = new System.Windows.Forms.Button();
             this.btndelete = new System.Windows.Forms.Button();
             this.btnrest = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.btnadd = new System.Windows.Forms.Button();
-            this.btnshowsubject = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -80,6 +80,20 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(596, 224);
             this.dataGridView1.TabIndex = 43;
+            // 
+            // btnshowsubject
+            // 
+            this.btnshowsubject.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btnshowsubject.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.2F, System.Drawing.FontStyle.Italic);
+            this.btnshowsubject.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnshowsubject.Image = global::Student_Management_System.Properties.Resources._30sub;
+            this.btnshowsubject.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnshowsubject.Location = new System.Drawing.Point(452, 341);
+            this.btnshowsubject.Name = "btnshowsubject";
+            this.btnshowsubject.Size = new System.Drawing.Size(153, 59);
+            this.btnshowsubject.TabIndex = 57;
+            this.btnshowsubject.Text = "     Show Subject";
+            this.btnshowsubject.UseVisualStyleBackColor = false;
             // 
             // btndelete
             // 
@@ -137,25 +151,12 @@
             this.btnadd.Text = "      Add";
             this.btnadd.UseVisualStyleBackColor = false;
             // 
-            // btnshowsubject
-            // 
-            this.btnshowsubject.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.btnshowsubject.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.2F, System.Drawing.FontStyle.Italic);
-            this.btnshowsubject.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnshowsubject.Image = global::Student_Management_System.Properties.Resources._30sub;
-            this.btnshowsubject.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnshowsubject.Location = new System.Drawing.Point(452, 341);
-            this.btnshowsubject.Name = "btnshowsubject";
-            this.btnshowsubject.Size = new System.Drawing.Size(153, 59);
-            this.btnshowsubject.TabIndex = 57;
-            this.btnshowsubject.Text = "     Show Subject";
-            this.btnshowsubject.UseVisualStyleBackColor = false;
-            // 
             // GradeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(605, 402);
+            this.ControlBox = false;
             this.Controls.Add(this.btnshowsubject);
             this.Controls.Add(this.btndelete);
             this.Controls.Add(this.btnrest);
@@ -165,8 +166,9 @@
             this.Controls.Add(this.lblgrade);
             this.Controls.Add(this.txtgradename);
             this.Controls.Add(this.lblfirstname);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "GradeForm";
-            this.Text = "GradeForm";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

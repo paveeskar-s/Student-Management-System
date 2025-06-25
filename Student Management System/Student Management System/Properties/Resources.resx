@@ -124,6 +124,9 @@
   <data name="close35" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="grad30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grad30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="regster40" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\regster40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -184,6 +187,9 @@
   <data name="add50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\add50.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="serch201" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\serch201.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="30edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\30edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -202,7 +208,7 @@
   <data name="add40" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\add40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="serch201" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\serch201.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="loginp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loginp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
