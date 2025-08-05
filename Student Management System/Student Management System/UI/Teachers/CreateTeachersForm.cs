@@ -16,5 +16,20 @@ namespace Student_Management_System.UI.Teachers
         {
             InitializeComponent();
         }
+
+        private void CreateTeachersForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dtpdate_of_hire_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

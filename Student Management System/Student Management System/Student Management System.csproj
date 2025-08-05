@@ -33,7 +33,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\mysqldll\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,13 +50,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DAL\GradesDal.cs" />
+    <Compile Include="DAL\DbHelper.cs" />
+    <Compile Include="DAL\GradeDal.cs" />
     <Compile Include="DAL\GradeSubjectDal.cs" />
-    <Compile Include="DAL\StudentsDal.cs" />
+    <Compile Include="DAL\StudentDal.cs" />
     <Compile Include="DAL\StudentSubjectDal.cs" />
-    <Compile Include="DAL\SubjectsDal.cs" />
+    <Compile Include="DAL\SubjectDal.cs" />
     <Compile Include="DAL\SubjectTeacherDal.cs" />
-    <Compile Include="DAL\TeachersDal.cs" />
+    <Compile Include="DAL\TeacherDal.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

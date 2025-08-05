@@ -1,0 +1,35 @@
+D:\Student-Management-System\Student Management System\Student Management System\bin\Debug\Student Management System.exe.config
+D:\Student-Management-System\Student Management System\Student Management System\bin\Debug\Student Management System.exe
+D:\Student-Management-System\Student Management System\Student Management System\bin\Debug\Student Management System.pdb
+D:\Student-Management-System\Student Management System\Student Management System\bin\Debug\MySql.Data.dll
+D:\Student-Management-System\Student Management System\Student Management System\bin\Debug\System.Memory.dll
+D:\Student-Management-System\Student Management System\Student Management System\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Student-Management-System\Student Management System\Student Management System\bin\Debug\System.Numerics.Vectors.dll
+D:\Student-Management-System\Student Management System\Student Management System\bin\Debug\System.Buffers.dll
+D:\Student-Management-System\Student Management System\Student Management System\obj\Debug\Student Management System.csproj.AssemblyReference.cache
+D:\Student-Management-System\Student Management System\Student Management System\obj\Debug\Student_Management_System.Form1.resources
+D:\Student-Management-System\Student Management System\Student Management System\obj\Debug\Student_Management_System.Properties.Resources.resources
+D:\Student-Management-System\Student Management System\Student Management System\obj\Debug\Student_Management_System.UI.DashbordForm.resources
+D:\Student-Management-System\Student Management System\Student Management System\obj\Debug\Student_Management_System.UI.GradeSubject.GradeSubjectForm.resources
+D:\Student-Management-System\Student Management System\Student Management System\obj\Debug\Student_Management_System.UI.GradeSubject.SubjectGradeForm.resources
+D:\Student-Management-System\Student Management System\Student Management System\obj\Debug\Student_Management_System.UI.Grades.GradeForm.resources
+D:\Student-Management-System\Student Management System\Student Management System\obj\Debug\Student_Management_System.UI.StudentSubject.StudentSubjectForm.resources
+D:\Student-Management-System\Student Management System\Student Management System\obj\Debug\Student_Management_System.UI.StudentSubject.SubjectStudentForm.resources
+D:\Student-Management-System\Student Management System\Student Management System\obj\Debug\Student_Management_System.UI.Students.CreateStudentForm.resources
+D:\Student-Management-System\Student Management System\Student Management System\obj\Debug\Student_Management_System.UI.Students.EditStudentForm.resources
+D:\Student-Management-System\Student Management System\Student Management System\obj\Debug\Student_Management_System.UI.Students.ListStudentsForm.resources
+D:\Student-Management-System\Student Management System\Student Management System\obj\Debug\Student_Management_System.UI.Students.ShowStudentform.resources
+D:\Student-Management-System\Student Management System\Student Management System\obj\Debug\Student_Management_System.UI.Subjects.SubjectsForm.resources
+D:\Student-Management-System\Student Management System\Student Management System\obj\Debug\Student_Management_System.UI.SubjectTeacher.SubjectTeacherForm.resources
+D:\Student-Management-System\Student Management System\Student Management System\obj\Debug\Student_Management_System.UI.SubjectTeacher.TeacherSubjectForm.resources
+D:\Student-Management-System\Student Management System\Student Management System\obj\Debug\Student_Management_System.UI.Teachers.CreateTeachersForm.resources
+D:\Student-Management-System\Student Management System\Student Management System\obj\Debug\Student_Management_System.UI.Teachers.EditTeachersForm.resources
+D:\Student-Management-System\Student Management System\Student Management System\obj\Debug\Student_Management_System.UI.Teachers.ListTeachersForm.resources
+D:\Student-Management-System\Student Management System\Student Management System\obj\Debug\Student_Management_System.UI.Teachers.ShowTeachersForm.resources
+D:\Student-Management-System\Student Management System\Student Management System\obj\Debug\Student_Management_System.UI.User.Loginform.resources
+D:\Student-Management-System\Student Management System\Student Management System\obj\Debug\Student_Management_System.UI.User.lblRegistrationForm.resources
+D:\Student-Management-System\Student Management System\Student Management System\obj\Debug\Student Management System.csproj.GenerateResource.cache
+D:\Student-Management-System\Student Management System\Student Management System\obj\Debug\Student Management System.csproj.CoreCompileInputs.cache
+D:\Student-Management-System\Student Management System\Student Management System\obj\Debug\Student .B1F29E5F.Up2Date
+D:\Student-Management-System\Student Management System\Student Management System\obj\Debug\Student Management System.exe
+D:\Student-Management-System\Student Management System\Student Management System\obj\Debug\Student Management System.pdb
